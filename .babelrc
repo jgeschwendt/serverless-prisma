@@ -1,0 +1,34 @@
+{
+  "plugins": [
+    ["module-resolver", {
+      "extensions": [".js", ".jsx", ".ts", ".tsx"],
+      "root": ["./src"]
+    }]
+  ],
+  "env": {
+    "development": {
+      "presets": [
+        ["@babel/env", {
+          "targets": {
+            "node": "6.10"
+          }
+        }],
+        "@babel/stage-0",
+        "@babel/react",
+        "@babel/typescript"
+      ]
+    },
+    "production": {
+      "presets": [
+        ["@babel/env", {
+          "targets": {
+            "node": "6.10"
+          }
+        }],
+        "@babel/stage-0",
+        "@babel/react",
+        "@babel/typescript"
+      ]
+    }
+  }
+}

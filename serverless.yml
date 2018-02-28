@@ -1,0 +1,44 @@
+service: 'serverless-boilerplate'
+
+frameworkVersion: '>=1.9.0 <2.0.0'
+
+custom:
+  stage: ${opt:stage, self:provider.stage}
+  webpack: ./webpack.config.js
+  webpackIncludeModules:
+    packagePath: ./package.json
+
+plugins:
+  - serverless-offline
+  - serverless-webpack
+
+provider:
+  name: aws
+  region: us-east-1
+  runtime: nodejs6.10
+  deploymentBucket: ${env:AWS_S3_DEPLOYMENT_BUCKET}
+
+functions:
+  graphql:
+    name: graphql-${self:custom.stage}
+    handler: handler.graphql
+    events:
+      - http:
+          cors: true
+          integration: lambda-proxy
+          method: get
+          path: /
+      - http:
+          cors: true
+          integration: lambda-proxy
+          method: post
+          path: /
+  playground:
+    name: graphql-playground-${self:custom.stage}
+    handler: handler.playground
+    events:
+      - http:
+          cors: true
+          integration: lambda-proxy
+          method: get
+          path: /playground

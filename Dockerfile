@@ -1,0 +1,3 @@
+FROM node:9.6
+
+EXPOSE 4000:4000
