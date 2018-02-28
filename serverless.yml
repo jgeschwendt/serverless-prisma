@@ -16,7 +16,11 @@ provider:
   name: aws
   region: us-east-1
   runtime: nodejs6.10
-  deploymentBucket: ${env:AWS_S3_DEPLOYMENT_BUCKET}
+  # deploymentBucket: ${env:AWS_S3_DEPLOYMENT_BUCKET}
+  environment:
+    PRISMA_DEBUG: ${env:PRISMA_DEBUG}
+    PRISMA_ENDPOINT: ${env:PRISMA_ENDPOINT}
+    PRISMA_SECRET: ${env:PRISMA_SECRET}
 
 functions:
   graphql:

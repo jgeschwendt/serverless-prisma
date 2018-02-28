@@ -59,5 +59,7 @@ typings/
 .env.*
 !.env.example
 
+.DS_Store
+
 .serverless
 .webpack
