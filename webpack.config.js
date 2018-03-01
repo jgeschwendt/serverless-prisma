@@ -22,7 +22,7 @@ module.exports = {
         test: /\.(gql|graphql)$/,
         use: [
           {
-            loader: 'graphql-import/loader',
+            loader: 'graphql-import-loader',
           },
         ]
       },

@@ -6,7 +6,7 @@ import typeDefs from './schema/schema.graphql'
 
 const context = ctx => ({ ...ctx,
   db: new Prisma({
-    debug: process.env.PRISMA_DEBUG,
+    debug: process.env.PRISMA_DEBUG === 'true',
     endpoint: process.env.PRISMA_ENDPOINT,
     secret: process.env.PRISMA_SECRET,
   })

@@ -17,12 +17,15 @@
     "start": "cross-env BABEL_ENV=development NODE_ENV=development sls offline --host 0.0.0.0 --port 4000",
     "tsc": "cross-env tsc"
   },
+  "resolutions": {
+    "graphql": "0.12.3"
+  },
   "dependencies": {
     "graphql": "^0.12.3",
     "graphql-tag": "^2.8.0",
     "graphql-yoga": "^1.4.3",
     "node-fetch": "^2.0.0",
-    "prisma-binding": "1.5.13"
+    "prisma-binding": "1.5.15"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.40",
@@ -36,7 +39,8 @@
     "babel-plugin-styled-components": "^1.5.0",
     "circular-dependency-plugin": "^4.4.0",
     "cross-env": "^5.1.3",
-    "graphql-import": "https://github.com/jgeschwendt/graphql-import.git#webpack-loader",
+    "graphql-import": "^0.4.5",
+    "graphql-import-loader": "https://github.com/jgeschwendt/graphql-import-loader.git#dev",
     "imports-loader": "^0.8.0",
     "jest": "^22.4.2",
     "json-loader": "^0.5.7",

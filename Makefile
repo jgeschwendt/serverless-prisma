@@ -6,8 +6,10 @@ endif
 
 include $(ENV_FILE)
 
-install:
+docker:
 	@docker build -t serverless/devbox .
+
+install:
 	@docker run --interactive --rm --tty --volume $(shell pwd):/code --workdir /code serverless/devbox yarn install
 
 dev:
