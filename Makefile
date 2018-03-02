@@ -29,3 +29,11 @@ build:
 start:
 	@docker run --env-file $(ENV_FILE) --interactive --publish 4000:4000 --rm --tty --volume $(shell pwd):/code --workdir /code \
 	serverless/devbox yarn start
+
+deploy-api-dev:
+	@docker run --env-file $(ENV_FILE) --interactive --publish 4000:4000 --rm --tty --volume $(shell pwd):/code --workdir /code \
+	serverless/devbox yarn run deploy:api:dev
+
+deploy-prisma-dev:
+	@docker run --env-file $(ENV_FILE) --interactive --publish 4000:4000 --rm --tty --volume $(shell pwd):/code --workdir /code \
+	serverless/devbox yarn run deploy:prisma:dev
