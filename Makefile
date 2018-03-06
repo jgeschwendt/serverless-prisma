@@ -7,7 +7,7 @@ endif
 include $(ENV_FILE)
 
 docker:
-	@docker build -t serverless/devbox .
+	@docker build --no-cache --tag serverless/devbox .
 
 install:
 	@docker run --interactive --rm --tty --volume $(shell pwd):/code --workdir /code serverless/devbox yarn install
@@ -30,10 +30,14 @@ start:
 	@docker run --env-file $(ENV_FILE) --interactive --publish 4000:4000 --rm --tty --volume $(shell pwd):/code --workdir /code \
 	serverless/devbox yarn start
 
-deploy-api-dev:
+deploy-api:
 	@docker run --env-file $(ENV_FILE) --interactive --publish 4000:4000 --rm --tty --volume $(shell pwd):/code --workdir /code \
-	serverless/devbox yarn run deploy:api:dev
+	serverless/devbox yarn run deploy:api:$(ENV)
 
-deploy-prisma-dev:
+deploy-prisma:
 	@docker run --env-file $(ENV_FILE) --interactive --publish 4000:4000 --rm --tty --volume $(shell pwd):/code --workdir /code \
-	serverless/devbox yarn run deploy:prisma:dev
+	serverless/devbox yarn run deploy:prisma:$(ENV)
+
+tsc:
+	@docker run --env-file $(ENV_FILE) --interactive --publish 4000:4000 --rm --tty --volume $(shell pwd):/code --workdir /code \
+	serverless/devbox yarn run tsc

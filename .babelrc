@@ -1,7 +1,7 @@
 {
   "plugins": [
     ["module-resolver", {
-      "extensions": [".js", ".jsx", ".ts", ".tsx"],
+      "extensions": [".js", ".ts"],
       "root": ["./src"]
     }]
   ],

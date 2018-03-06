@@ -37,7 +37,7 @@
     source-map "^0.5.0"
     trim-right "^1.0.1"
 
-"@babel/helper-annotate-as-pure@7.0.0-beta.40", "@babel/helper-annotate-as-pure@^7.0.0-beta.37":
+"@babel/helper-annotate-as-pure@7.0.0-beta.40":
   version "7.0.0-beta.40"
   resolved "https://registry.yarnpkg.com/@babel/helper-annotate-as-pure/-/helper-annotate-as-pure-7.0.0-beta.40.tgz#095dd4c70b231eba17ebf61c3434e6f9d71bd574"
   dependencies:
@@ -793,8 +793,8 @@ acorn-globals@^4.1.0:
     acorn "^5.0.0"
 
 acorn@^5.0.0, acorn@^5.3.0:
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.5.0.tgz#1abb587fbf051f94e3de20e6b26ef910b1828298"
+  version "5.5.1"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.5.1.tgz#84e05a9ea0acbe131227da50301e62464dc9c1d8"
 
 adm-zip@^0.4.7:
   version "0.4.7"
@@ -828,8 +828,8 @@ ajv@^4.9.1:
     json-stable-stringify "^1.0.1"
 
 ajv@^6.0.1, ajv@^6.1.0:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.2.0.tgz#afac295bbaa0152449e522742e4547c1ae9328d2"
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.2.1.tgz#28a6abc493a2abe0fb4c8507acaedb43fa550671"
   dependencies:
     fast-deep-equal "^1.0.0"
     fast-json-stable-stringify "^2.0.0"
@@ -997,8 +997,8 @@ apollo-upload-server@^4.0.0-alpha.1:
     object-path "^0.11.4"
 
 apollo-utilities@^1.0.0, apollo-utilities@^1.0.1:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/apollo-utilities/-/apollo-utilities-1.0.8.tgz#74d797d38953d2ba35e16f880326e2abcbc8b016"
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/apollo-utilities/-/apollo-utilities-1.0.9.tgz#16f9f2f92fd6c651d497aba6f2747ce17d87d80a"
 
 append-transform@^0.4.0:
   version "0.4.0"
@@ -1035,7 +1035,7 @@ archiver@^1.1.0:
     walkdir "^0.0.11"
     zip-stream "^1.1.0"
 
-archiver@^2.0.0, archiver@^2.0.3:
+archiver@^2.0.3, archiver@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/archiver/-/archiver-2.1.1.tgz#ff662b4a78201494a3ee544d3a33fe7496509ebc"
   dependencies:
@@ -1282,9 +1282,9 @@ babel-jest@^22.4.1:
     babel-plugin-istanbul "^4.1.5"
     babel-preset-jest "^22.4.1"
 
-babel-loader@8.0.0-beta.0:
-  version "8.0.0-beta.0"
-  resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-8.0.0-beta.0.tgz#b85c3b52d1095949125c72c7ec1fa0fbb47a11ff"
+babel-loader@^8.0.0-beta.2:
+  version "8.0.0-beta.2"
+  resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-8.0.0-beta.2.tgz#4d5b67c964dc8c9cba866fd13d6b90df3acf8723"
   dependencies:
     find-cache-dir "^1.0.0"
     loader-utils "^1.0.2"
@@ -1317,14 +1317,6 @@ babel-plugin-module-resolver@^3.1.0:
     pkg-up "^2.0.0"
     reselect "^3.0.1"
     resolve "^1.4.0"
-
-babel-plugin-styled-components@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-styled-components/-/babel-plugin-styled-components-1.5.0.tgz#4549f28a19fb05170aa9ee429b4de0eac2d2401d"
-  dependencies:
-    "@babel/helper-annotate-as-pure" "^7.0.0-beta.37"
-    babel-types "^6.26.0"
-    stylis "^3.0.0"
 
 babel-plugin-syntax-object-rest-spread@^6.13.0:
   version "6.13.0"
@@ -1745,8 +1737,8 @@ camelcase@^4.0.0, camelcase@^4.1.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-4.1.0.tgz#d545635be1e33c542649c69173e5de6acfae34dd"
 
 caniuse-lite@^1.0.30000809:
-  version "1.0.30000810"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000810.tgz#47585fffce0e9f3593a6feea4673b945424351d9"
+  version "1.0.30000813"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000813.tgz#7b25e27fdfb8d133f3c932b01f77452140fcc6c9"
 
 capture-stack-trace@^1.0.0:
   version "1.0.0"
@@ -2221,8 +2213,8 @@ cross-spawn@^5.0.1, cross-spawn@^5.1.0:
     which "^1.2.9"
 
 cross-spawn@^6.0.4:
-  version "6.0.4"
-  resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-6.0.4.tgz#bbf44ccb30fb8314a08f178b62290c669c36d808"
+  version "6.0.5"
+  resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-6.0.5.tgz#4a5ec7c64dfae22c3a14124dbacdee846d80cbc4"
   dependencies:
     nice-try "^1.0.4"
     path-key "^2.0.1"
@@ -2478,8 +2470,8 @@ diff@^1.3.2:
   resolved "https://registry.yarnpkg.com/diff/-/diff-1.4.0.tgz#7f28d2eb9ee7b15a97efd89ce63dcfdaa3ccbabf"
 
 diff@^3.1.0, diff@^3.2.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/diff/-/diff-3.4.0.tgz#b1d85507daf3964828de54b37d0d73ba67dda56c"
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/diff/-/diff-3.5.0.tgz#800c0dd1e0a8bfbc95835c202ad220fe317e5a12"
 
 diffie-hellman@^5.0.0:
   version "5.0.2"
@@ -2597,8 +2589,8 @@ ee-first@1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
 
 electron-to-chromium@^1.3.33:
-  version "1.3.34"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.34.tgz#d93498f40391bb0c16a603d8241b9951404157ed"
+  version "1.3.36"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.36.tgz#0eabf71a9ebea9013fb1cc35a390e068624f27e8"
 
 elliptic@^6.0.0:
   version "6.4.0"
@@ -3194,7 +3186,7 @@ fs-extra@^3.0.1:
     jsonfile "^3.0.0"
     universalify "^0.1.0"
 
-fs-extra@^4.0.2, fs-extra@^4.0.3:
+fs-extra@^4.0.3:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-4.0.3.tgz#0d852122e5bc5beb453fb028e9c0c9bf36340c94"
   dependencies:
@@ -3222,6 +3214,9 @@ fs.realpath@^1.0.0:
 fsevents@^1.0.0, fsevents@^1.1.1:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-1.1.3.tgz#11f82318f5fe7bb2cd22965a108e9306208216d8"
+  dependencies:
+    nan "^2.3.0"
+    node-pre-gyp "^0.6.39"
 
 fstream-ignore@^1.0.5:
   version "1.0.5"
@@ -3470,12 +3465,12 @@ graphql-anywhere@^3.0.1:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/graphql-anywhere/-/graphql-anywhere-3.1.0.tgz#3ea0d8e8646b5cee68035016a9a7557c15c21e96"
 
-graphql-binding@1.2.4:
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/graphql-binding/-/graphql-binding-1.2.4.tgz#ac1af63d98fca412dcd52ca04928cab2d6d08e0a"
+graphql-binding@1.2.5:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/graphql-binding/-/graphql-binding-1.2.5.tgz#1c45b9da055cb0722f0348b6354be2e11b0a8c17"
   dependencies:
     graphql-tools "2.21.0"
-    iterall "1.2.1"
+    iterall "1.2.2"
 
 graphql-cli-prepare@1.4.17:
   version "1.4.17"
@@ -3570,9 +3565,9 @@ graphql-extensions@^0.0.x:
     core-js "^2.5.3"
     source-map-support "^0.5.1"
 
-"graphql-import-loader@https://github.com/jgeschwendt/graphql-import-loader.git#dev":
-  version "0.0.0-semantic-release"
-  resolved "https://github.com/jgeschwendt/graphql-import-loader.git#47932d825b5621a5e49920d19581508ada1bea30"
+graphql-import-loader@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/graphql-import-loader/-/graphql-import-loader-0.2.0.tgz#d3d559835a43013448cc1f45ed93bed98e742ef5"
   dependencies:
     graphql-import "^0.4.5"
 
@@ -3674,19 +3669,7 @@ graphql-yoga@^1.4.3:
     graphql-tools "^2.18.0"
     subscriptions-transport-ws "^0.9.6"
 
-graphql@^0.10.0, graphql@^0.10.1, graphql@^0.10.3:
-  version "0.10.5"
-  resolved "https://registry.yarnpkg.com/graphql/-/graphql-0.10.5.tgz#c9be17ca2bdfdbd134077ffd9bbaa48b8becd298"
-  dependencies:
-    iterall "^1.1.0"
-
-"graphql@^0.11.0 || ^0.12.0 || ^0.13.0", graphql@^0.13.0:
-  version "0.13.1"
-  resolved "https://registry.yarnpkg.com/graphql/-/graphql-0.13.1.tgz#9b3db3d8e40d1827e4172404bfdd2e4e17a58b55"
-  dependencies:
-    iterall "^1.2.0"
-
-graphql@^0.12.3:
+graphql@^0.10.0, graphql@^0.10.1, graphql@^0.10.3, "graphql@^0.11.0 || ^0.12.0 || ^0.13.0", graphql@^0.12.3, graphql@^0.13.0, graphql@^0.13.1:
   version "0.12.3"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-0.12.3.tgz#11668458bbe28261c0dcb6e265f515ba79f6ce07"
   dependencies:
@@ -3925,8 +3908,8 @@ http-errors@1.6.2, http-errors@~1.6.2:
     statuses ">= 1.3.1 < 2"
 
 http-link-dataloader@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/http-link-dataloader/-/http-link-dataloader-0.1.2.tgz#1aab8e30bd65f3056b8fd4312d50f5071c8862a5"
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/http-link-dataloader/-/http-link-dataloader-0.1.3.tgz#23705749f141fce5f0720e7060e957482f91ad10"
   dependencies:
     apollo-link "^1.2.1"
     cross-fetch "2.0.0"
@@ -4483,11 +4466,7 @@ iterall@1.1.3:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.1.3.tgz#1cbbff96204056dde6656e2ed2e2226d0e6d72c9"
 
-iterall@1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.2.1.tgz#59a347ae8001d2d4bc546b8487ca755d61849965"
-
-iterall@^1.1.0, iterall@^1.1.3, iterall@^1.2.0, iterall@^1.2.1:
+iterall@1.2.2, iterall@^1.1.3, iterall@^1.2.1:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.2.2.tgz#92d70deb8028e0c39ff3164fdbf4d8b088130cd7"
 
@@ -4795,8 +4774,8 @@ js-tokens@^3.0.0, js-tokens@^3.0.2:
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-3.0.2.tgz#9866df395102130e38f7f996bceb65443209c25b"
 
 js-yaml@^3.10.0, js-yaml@^3.6.1, js-yaml@^3.7.0, js-yaml@^3.8.3, js-yaml@^3.8.4, js-yaml@^3.9.0, js-yaml@^3.9.1:
-  version "3.10.0"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.10.0.tgz#2e78441646bd4682e963f22b6e92823c309c62dc"
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.11.0.tgz#597c1a8bd57152f26d622ce4117851a51f5ebaef"
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
@@ -4851,10 +4830,6 @@ jsesc@~0.5.0:
 json-cycle@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/json-cycle/-/json-cycle-1.3.0.tgz#c4f6f7d926c2979012cba173b06f9cae9e866d3f"
-
-json-loader@^0.5.7:
-  version "0.5.7"
-  resolved "https://registry.yarnpkg.com/json-loader/-/json-loader-0.5.7.tgz#dca14a70235ff82f0ac9a3abeb60d337a365185d"
 
 json-parse-better-errors@^1.0.1:
   version "1.0.1"
@@ -5509,8 +5484,8 @@ mkdirp@0.5.x, "mkdirp@>=0.5 0", mkdirp@^0.5.1, mkdirp@~0.5.0:
     minimist "0.0.8"
 
 moment@2.x.x, moment@^2.13.0:
-  version "2.20.1"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.20.1.tgz#d6eb1a46cbcc14a2b2f9434112c1ff8907f313fd"
+  version "2.21.0"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.21.0.tgz#2a114b51d2a6ec9e6d83cf803f838a878d8a023a"
 
 move-concurrently@^1.0.1:
   version "1.0.1"
@@ -5602,7 +5577,7 @@ node-emoji@^1.4.1:
   dependencies:
     lodash.toarray "^4.4.0"
 
-node-fetch@2.0.0, node-fetch@^2.0.0:
+node-fetch@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.0.0.tgz#982bba43ecd4f2922a29cc186a6bbb0bb73fcba6"
 
@@ -5613,9 +5588,13 @@ node-fetch@^1.0.1, node-fetch@^1.6.0:
     encoding "^0.1.11"
     is-stream "^1.0.1"
 
+node-fetch@^2.0.0, node-fetch@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.1.1.tgz#369ca70b82f50c86496104a6c776d274f4e4a2d4"
+
 node-forge@^0.7.1:
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/node-forge/-/node-forge-0.7.2.tgz#3703b27f61a4c7613f046377643038b99e6a7891"
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/node-forge/-/node-forge-0.7.3.tgz#03188af9dd2401c55e040150ba3c708575678e1a"
 
 node-int64@^0.4.0:
   version "0.4.0"
@@ -6231,24 +6210,24 @@ pretty-format@^22.4.0:
     ansi-regex "^3.0.0"
     ansi-styles "^3.2.0"
 
-prisma-binding@1.5.15:
-  version "1.5.15"
-  resolved "https://registry.yarnpkg.com/prisma-binding/-/prisma-binding-1.5.15.tgz#5cc49c60f1835e58e792c3760cdd1fb88ba1f52d"
+prisma-binding@^1.5.16:
+  version "1.5.16"
+  resolved "https://registry.yarnpkg.com/prisma-binding/-/prisma-binding-1.5.16.tgz#51c3c1fca96550ca1c45645d2615c595bc5aae79"
   dependencies:
     apollo-link "1.2.1"
     apollo-link-error "1.0.7"
     apollo-link-ws "1.0.7"
     cross-fetch "2.0.0"
-    graphql-binding "1.2.4"
+    graphql-binding "1.2.5"
     graphql-import "0.4.5"
     graphql-tools "2.21.0"
     http-link-dataloader "^0.1.2"
     jsonwebtoken "^8.1.0"
     subscriptions-transport-ws "0.9.6"
 
-prisma-cli-core@1.0.22:
-  version "1.0.22"
-  resolved "https://registry.yarnpkg.com/prisma-cli-core/-/prisma-cli-core-1.0.22.tgz#0a0e7d5fe55ad81d957deb9196a6bb2069474495"
+prisma-cli-core@1.0.25:
+  version "1.0.25"
+  resolved "https://registry.yarnpkg.com/prisma-cli-core/-/prisma-cli-core-1.0.25.tgz#9816a400d95e8d5b301b651bead0f098fcd083a9"
   dependencies:
     adm-zip "^0.4.7"
     archiver "^2.0.3"
@@ -6263,6 +6242,7 @@ prisma-cli-core@1.0.22:
     fs-extra "^5.0.0"
     globby "^6.1.0"
     graphcool-inquirer "^1.0.3"
+    graphql "^0.13.1"
     graphql-cli "2.15.7"
     graphql-config "^2.0.1"
     inquirer "^3.3.0"
@@ -6278,7 +6258,7 @@ prisma-cli-core@1.0.22:
     pause "^0.1.0"
     portfinder "^1.0.13"
     prisma-json-schema "^0.0.1"
-    prisma-yml "1.0.31"
+    prisma-yml "1.0.34"
     scuid "^1.0.2"
     semver "^5.4.1"
     sillyname "^0.1.0"
@@ -6287,9 +6267,9 @@ prisma-cli-core@1.0.22:
     util.promisify "^1.0.0"
     validator "^8.2.0"
 
-prisma-cli-engine@1.0.20:
-  version "1.0.20"
-  resolved "https://registry.yarnpkg.com/prisma-cli-engine/-/prisma-cli-engine-1.0.20.tgz#e74efe33389f53ef5bcf507fd20977cce7133032"
+prisma-cli-engine@1.0.23:
+  version "1.0.23"
+  resolved "https://registry.yarnpkg.com/prisma-cli-engine/-/prisma-cli-engine-1.0.23.tgz#5ef4c4fe520eede16ab47ff39ef213bb41963132"
   dependencies:
     "@heroku/linewrap" "^1.0.0"
     ajv "5"
@@ -6331,7 +6311,7 @@ prisma-cli-engine@1.0.20:
     memfs "^2.5.3"
     opn "^5.1.0"
     prisma-json-schema "^0.0.1"
-    prisma-yml "1.0.31"
+    prisma-yml "1.0.34"
     raven "2.3.0"
     replaceall "^0.1.6"
     rwlockfile "^1.4.8"
@@ -6372,9 +6352,9 @@ prisma-yml@1.0.28:
     scuid "^1.0.2"
     yaml-ast-parser "^0.0.40"
 
-prisma-yml@1.0.31:
-  version "1.0.31"
-  resolved "https://registry.yarnpkg.com/prisma-yml/-/prisma-yml-1.0.31.tgz#f3686f06b7bde76988417fbb5d12a37a3b1dedb2"
+prisma-yml@1.0.34:
+  version "1.0.34"
+  resolved "https://registry.yarnpkg.com/prisma-yml/-/prisma-yml-1.0.34.tgz#2462c82b3bc472f36469ca84078783853824ccf7"
   dependencies:
     ajv "5"
     bluebird "^3.5.1"
@@ -6393,13 +6373,13 @@ prisma-yml@1.0.31:
     scuid "^1.0.2"
     yaml-ast-parser "^0.0.40"
 
-prisma@^1.3.2:
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/prisma/-/prisma-1.3.2.tgz#9e6f6bc15e32b1e96ef39169dc49e4a0720dcc02"
+prisma@^1.3.5:
+  version "1.3.5"
+  resolved "https://registry.yarnpkg.com/prisma/-/prisma-1.3.5.tgz#d8ff2c80200814802bd4ec6cf16932a50e7f42ce"
   dependencies:
     fs-extra "^5.0.0"
-    prisma-cli-core "1.0.22"
-    prisma-cli-engine "1.0.20"
+    prisma-cli-core "1.0.25"
+    prisma-cli-engine "1.0.23"
     semver "^5.4.1"
     source-map-support "^0.4.18"
 
@@ -6614,8 +6594,8 @@ read-pkg@^3.0.0:
     path-type "^3.0.0"
 
 "readable-stream@1 || 2", readable-stream@^2.0.0, readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.4, readable-stream@^2.0.5, readable-stream@^2.0.6, readable-stream@^2.1.4, readable-stream@^2.1.5, readable-stream@^2.2.2, readable-stream@^2.3.3:
-  version "2.3.4"
-  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.3.4.tgz#c946c3f47fa7d8eabc0b6150f4a12f69a4574071"
+  version "2.3.5"
+  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.3.5.tgz#b4f85003a938cbb6ecbce2a124fb1012bd1a838d"
   dependencies:
     core-util-is "~1.0.0"
     inherits "~2.0.3"
@@ -7085,17 +7065,17 @@ serverless-offline@^3.18.0:
     lodash "^4.17.4"
     velocityjs "^0.9.3"
 
-serverless-webpack@^5.0.0-rc.1:
-  version "5.0.0-rc.1"
-  resolved "https://registry.yarnpkg.com/serverless-webpack/-/serverless-webpack-5.0.0-rc.1.tgz#2f9989fb4f9af032988e5eebfda4ffa646526cc9"
+serverless-webpack@^5.0.0-rc.2:
+  version "5.0.0-rc.2"
+  resolved "https://registry.yarnpkg.com/serverless-webpack/-/serverless-webpack-5.0.0-rc.2.tgz#974454e9b467386b90fea6ed283ce1012b07dc6c"
   dependencies:
-    archiver "^2.0.0"
-    bluebird "^3.5.0"
-    fs-extra "^4.0.2"
+    archiver "^2.1.1"
+    bluebird "^3.5.1"
+    fs-extra "^4.0.3"
     glob "^7.1.2"
     is-builtin-module "^1.0.0"
-    lodash "^4.17.4"
-    semver "^5.4.1"
+    lodash "^4.17.5"
+    semver "^5.5.0"
     ts-node "^3.2.0"
 
 serverless@^1.26.1:
@@ -7525,15 +7505,21 @@ string@3.x:
   version "3.3.3"
   resolved "https://registry.yarnpkg.com/string/-/string-3.3.3.tgz#5ea211cd92d228e184294990a6cc97b366a77cb0"
 
-string_decoder@^1.0.0, string_decoder@~1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-1.0.3.tgz#0fc67d7c141825de94282dd536bec6b9bce860ab"
+string_decoder@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-1.1.0.tgz#384f322ee8a848e500effde99901bba849c5d403"
   dependencies:
     safe-buffer "~5.1.0"
 
 string_decoder@~0.10.x:
   version "0.10.31"
   resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-0.10.31.tgz#62e203bc41766c6c28c9fc84301dab1c5310fa94"
+
+string_decoder@~1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-1.0.3.tgz#0fc67d7c141825de94282dd536bec6b9bce860ab"
+  dependencies:
+    safe-buffer "~5.1.0"
 
 stringstream@~0.0.4, stringstream@~0.0.5:
   version "0.0.5"
@@ -7580,10 +7566,6 @@ strip-outer@^1.0.0:
   resolved "https://registry.yarnpkg.com/strip-outer/-/strip-outer-1.0.0.tgz#aac0ba60d2e90c5d4f275fd8869fd9a2d310ffb8"
   dependencies:
     escape-string-regexp "^1.0.2"
-
-stylis@^3.0.0:
-  version "3.4.10"
-  resolved "https://registry.yarnpkg.com/stylis/-/stylis-3.4.10.tgz#a135cab4b9ff208e327fbb5a6fde3fa991c638ee"
 
 subscriptions-transport-ws@0.9.6, subscriptions-transport-ws@^0.9.6:
   version "0.9.6"
@@ -8212,7 +8194,7 @@ watch@~0.18.0:
     exec-sh "^0.2.0"
     minimist "^1.2.0"
 
-watchpack@^1.4.0:
+watchpack@^1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-1.5.0.tgz#231e783af830a22f8966f65c4c4bacc814072eed"
   dependencies:
@@ -8241,9 +8223,9 @@ webpack-sources@^1.0.1, webpack-sources@^1.1.0:
     source-list-map "^2.0.0"
     source-map "~0.6.1"
 
-webpack@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.0.1.tgz#768d708beeca4c5f77f6c2d38a240fb6ff50ba5d"
+webpack@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.1.0.tgz#91b6862e56eb3b18b79bb10b51866987ff10d2d6"
   dependencies:
     acorn "^5.0.0"
     acorn-dynamic-import "^3.0.0"
@@ -8262,7 +8244,7 @@ webpack@^4.0.1:
     schema-utils "^0.4.2"
     tapable "^1.0.0"
     uglifyjs-webpack-plugin "^1.1.1"
-    watchpack "^1.4.0"
+    watchpack "^1.5.0"
     webpack-sources "^1.0.1"
 
 whatwg-encoding@^1.0.1, whatwg-encoding@^1.0.3:

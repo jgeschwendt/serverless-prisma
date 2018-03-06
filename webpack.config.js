@@ -5,7 +5,7 @@ const webpack = require('webpack')
 const nodeExternals = require('webpack-node-externals')
 
 module.exports = {
-  mode: process.env.NODE_ENV,
+  mode: slsw.lib.webpack.isLocal ? 'development' : 'production',
   devtool: 'source-map',
   target: 'node',
   entry: slsw.lib.entries,
