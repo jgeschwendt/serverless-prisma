@@ -8,8 +8,6 @@ include $(ENV_FILE)
 
 devbox:
 	@docker build --no-cache --tag serverless/devbox .
-
-install:
 	@docker run --interactive --rm --tty --volume $(shell pwd):/code --workdir /code serverless/devbox yarn install
 
 dev:
