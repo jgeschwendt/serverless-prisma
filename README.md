@@ -1,6 +1,8 @@
 # Serverless Prisma
 
-### Getting Started
+Minimal Serverless + Prisma Project Template
+
+## Getting Started
 
 - Be sure to have `Docker` and `Make` installed on your machine.
 
@@ -32,3 +34,5 @@ ENV=dev make deploy                     # uses the configuration from `.env.dev`
 ENV=prod make deploy                    # uses the configuration from `.env.prod`
 
 ```
+
+The complete command list can be viewed in the `~/Makefile`

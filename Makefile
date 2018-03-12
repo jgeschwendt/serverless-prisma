@@ -6,7 +6,7 @@ endif
 
 include $(ENV_FILE)
 
-docker:
+devbox:
 	@docker build --no-cache --tag serverless/devbox .
 
 install:

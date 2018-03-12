@@ -226,8 +226,8 @@ input PostUpdateManyWithoutAuthorInput {
   connect: [PostWhereUniqueInput!]
   disconnect: [PostWhereUniqueInput!]
   delete: [PostWhereUniqueInput!]
-  update: [PostUpdateWithoutAuthorInput!]
-  upsert: [PostUpsertWithoutAuthorInput!]
+  update: [PostUpdateWithWhereUniqueWithoutAuthorInput!]
+  upsert: [PostUpsertWithWhereUniqueWithoutAuthorInput!]
 }
 
 input PostUpdateWithoutAuthorDataInput {
@@ -236,12 +236,12 @@ input PostUpdateWithoutAuthorDataInput {
   text: String
 }
 
-input PostUpdateWithoutAuthorInput {
+input PostUpdateWithWhereUniqueWithoutAuthorInput {
   where: PostWhereUniqueInput!
   data: PostUpdateWithoutAuthorDataInput!
 }
 
-input PostUpsertWithoutAuthorInput {
+input PostUpsertWithWhereUniqueWithoutAuthorInput {
   where: PostWhereUniqueInput!
   update: PostUpdateWithoutAuthorDataInput!
   create: PostCreateWithoutAuthorInput!
@@ -620,9 +620,9 @@ input UserUpdateInput {
 input UserUpdateOneWithoutPostsInput {
   create: UserCreateWithoutPostsInput
   connect: UserWhereUniqueInput
-  disconnect: UserWhereUniqueInput
-  delete: UserWhereUniqueInput
-  update: UserUpdateWithoutPostsInput
+  disconnect: Boolean
+  delete: Boolean
+  update: UserUpdateWithoutPostsDataInput
   upsert: UserUpsertWithoutPostsInput
 }
 
@@ -632,13 +632,7 @@ input UserUpdateWithoutPostsDataInput {
   name: String
 }
 
-input UserUpdateWithoutPostsInput {
-  where: UserWhereUniqueInput!
-  data: UserUpdateWithoutPostsDataInput!
-}
-
 input UserUpsertWithoutPostsInput {
-  where: UserWhereUniqueInput!
   update: UserUpdateWithoutPostsDataInput!
   create: UserCreateWithoutPostsInput!
 }
@@ -908,10 +902,9 @@ export type MutationType =
   'UPDATED' |
   'DELETED'
 
-export interface UserCreateWithoutPostsInput {
-  email: String
-  password: String
-  name: String
+export interface UserCreateOneWithoutPostsInput {
+  create?: UserCreateWithoutPostsInput
+  connect?: UserWhereUniqueInput
 }
 
 export interface PostWhereInput {
@@ -1054,8 +1047,8 @@ export interface PostUpdateManyWithoutAuthorInput {
   connect?: PostWhereUniqueInput[] | PostWhereUniqueInput
   disconnect?: PostWhereUniqueInput[] | PostWhereUniqueInput
   delete?: PostWhereUniqueInput[] | PostWhereUniqueInput
-  update?: PostUpdateWithoutAuthorInput[] | PostUpdateWithoutAuthorInput
-  upsert?: PostUpsertWithoutAuthorInput[] | PostUpsertWithoutAuthorInput
+  update?: PostUpdateWithWhereUniqueWithoutAuthorInput[] | PostUpdateWithWhereUniqueWithoutAuthorInput
+  upsert?: PostUpsertWithWhereUniqueWithoutAuthorInput[] | PostUpsertWithWhereUniqueWithoutAuthorInput
 }
 
 export interface PostUpdateInput {
@@ -1079,7 +1072,6 @@ export interface PostCreateWithoutAuthorInput {
 }
 
 export interface UserUpsertWithoutPostsInput {
-  where: UserWhereUniqueInput
   update: UserUpdateWithoutPostsDataInput
   create: UserCreateWithoutPostsInput
 }
@@ -1104,31 +1096,10 @@ export interface PostWhereUniqueInput {
   id?: ID_Input
 }
 
-export interface PostCreateInput {
-  isPublished?: Boolean
-  title: String
-  text: String
-  author: UserCreateOneWithoutPostsInput
-}
-
-export interface PostUpsertWithoutAuthorInput {
+export interface PostUpsertWithWhereUniqueWithoutAuthorInput {
   where: PostWhereUniqueInput
   update: PostUpdateWithoutAuthorDataInput
   create: PostCreateWithoutAuthorInput
-}
-
-export interface PostUpdateWithoutAuthorInput {
-  where: PostWhereUniqueInput
-  data: PostUpdateWithoutAuthorDataInput
-}
-
-export interface UserUpdateOneWithoutPostsInput {
-  create?: UserCreateWithoutPostsInput
-  connect?: UserWhereUniqueInput
-  disconnect?: UserWhereUniqueInput
-  delete?: UserWhereUniqueInput
-  update?: UserUpdateWithoutPostsInput
-  upsert?: UserUpsertWithoutPostsInput
 }
 
 export interface UserCreateInput {
@@ -1138,14 +1109,26 @@ export interface UserCreateInput {
   posts?: PostCreateManyWithoutAuthorInput
 }
 
-export interface UserUpdateWithoutPostsInput {
-  where: UserWhereUniqueInput
-  data: UserUpdateWithoutPostsDataInput
+export interface UserCreateWithoutPostsInput {
+  email: String
+  password: String
+  name: String
 }
 
-export interface UserCreateOneWithoutPostsInput {
+export interface UserUpdateOneWithoutPostsInput {
   create?: UserCreateWithoutPostsInput
   connect?: UserWhereUniqueInput
+  disconnect?: Boolean
+  delete?: Boolean
+  update?: UserUpdateWithoutPostsDataInput
+  upsert?: UserUpsertWithoutPostsInput
+}
+
+export interface PostCreateInput {
+  isPublished?: Boolean
+  title: String
+  text: String
+  author: UserCreateOneWithoutPostsInput
 }
 
 export interface PostUpdateWithoutAuthorDataInput {
@@ -1167,6 +1150,11 @@ export interface PostSubscriptionWhereInput {
   updatedFields_contains_every?: String[] | String
   updatedFields_contains_some?: String[] | String
   node?: PostWhereInput
+}
+
+export interface PostUpdateWithWhereUniqueWithoutAuthorInput {
+  where: PostWhereUniqueInput
+  data: PostUpdateWithoutAuthorDataInput
 }
 
 /*

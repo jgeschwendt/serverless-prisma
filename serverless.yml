@@ -1,12 +1,19 @@
-service: 'serverless-boilerplate'
+service: 'serverless-prisma'
 
 frameworkVersion: '>=1.9.0 <2.0.0'
 
 custom:
   stage: ${opt:stage, self:provider.stage}
-  webpack: ./webpack.config.js
-  webpackIncludeModules:
-    packagePath: ./package.json
+  webpack:
+    webpackConfig: ./webpack.config.js
+    includeModules: true
+    packager: yarn
+    packagerOptions:
+      flat: false  # Will set --flat on install (defaults to false)
+      ignoreScripts: false  # Do not execute package.json hook scripts on install (defaults to false)
+
+package:
+  individually: true
 
 plugins:
   - serverless-offline
@@ -24,8 +31,8 @@ provider:
 
 functions:
   graphql:
-    name: graphql-${self:custom.stage}
-    handler: handler.graphql
+    name: serverless-prisma-graphql-${self:custom.stage}
+    handler: src/graphql.handler
     events:
       - http:
           cors: true
@@ -38,8 +45,8 @@ functions:
           method: post
           path: /
   playground:
-    name: graphql-playground-${self:custom.stage}
-    handler: handler.playground
+    name: serverless-prisma-graphql-playground-${self:custom.stage}
+    handler: src/playground.handler
     events:
       - http:
           cors: true
