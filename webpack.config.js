@@ -42,6 +42,10 @@ module.exports = {
     new CircularDependencyPlugin({ exclude: /node_modules/, failOnError: false }),
   ],
   resolve: {
-    extensions: ['.ts', '.js', '.gql', '.graphql']
+    extensions: [
+      '.js',
+      '.ts',
+      '.graphql',
+    ]
   },
 }

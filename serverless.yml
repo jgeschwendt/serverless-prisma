@@ -1,4 +1,4 @@
-service: 'serverless-prisma'
+service: serverless-prisma
 
 frameworkVersion: '>=1.9.0 <2.0.0'
 
@@ -8,9 +8,6 @@ custom:
     webpackConfig: ./webpack.config.js
     includeModules: true
     packager: yarn
-    packagerOptions:
-      flat: false  # Will set --flat on install (defaults to false)
-      ignoreScripts: false  # Do not execute package.json hook scripts on install (defaults to false)
 
 package:
   individually: true
@@ -28,6 +25,7 @@ provider:
     PRISMA_DEBUG: ${env:PRISMA_DEBUG}
     PRISMA_ENDPOINT: ${env:PRISMA_ENDPOINT}
     PRISMA_SECRET: ${env:PRISMA_SECRET}
+    PRISMA_SERVICE: ${env:PRISMA_SERVICE}
 
 functions:
   graphql:

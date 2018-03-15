@@ -8,6 +8,9 @@ include $(ENV_FILE)
 
 devbox:
 	@docker build --no-cache --tag serverless/devbox .
+	@make install
+
+install:
 	@docker run --interactive --rm --tty --volume $(shell pwd):/code --workdir /code serverless/devbox yarn install
 
 dev:
@@ -27,6 +30,12 @@ build:
 start:
 	@docker run --env-file $(ENV_FILE) --interactive --publish 4000:4000 --rm --tty --volume $(shell pwd):/code --workdir /code \
 	serverless/devbox yarn start
+
+hard-start:
+	rm -rf node_modules
+	rm yarn.lock
+	make install
+	make start
 
 deploy-api:
 	@docker run --env-file $(ENV_FILE) --interactive --publish 4000:4000 --rm --tty --volume $(shell pwd):/code --workdir /code \

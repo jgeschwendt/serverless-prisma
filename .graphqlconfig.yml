@@ -5,7 +5,7 @@ projects:
       endpoints:
         default: http://localhost:4000
   database:
-    schemaPath: src/generated/prisma.graphql
+    schemaPath: src/generated/schema.graphql
     extensions:
       prisma: database/prisma.yml
       prepare-binding:
