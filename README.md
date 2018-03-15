@@ -1,5 +1,7 @@
 # Serverless Prisma
 
+[![Build Status](https://travis-ci.org/jgeschwendt/serverless-prisma.svg?branch=master)](https://travis-ci.org/jgeschwendt/serverless-prisma)
+
 Minimal Serverless + Prisma Project Template
 
 ## Getting Started
