@@ -18,21 +18,31 @@ module.exports = {
   module: {
     rules: [
       {
-        exclude: /node_modules/,
-        test: /\.(gql|graphql)$/,
+        enforce: 'pre',
+        exclude: /(node_modules|src\/generated)/,
+        test: /\.ts$/,
         use: [
           {
-            loader: 'graphql-import-loader',
+            loader: 'typescript-standard-loader',
           },
         ]
       },
       {
         exclude: /node_modules/,
-        test: /\.(ts|tsx)$/,
+        test: /\.ts$/,
         use: [
           { loader: 'imports-loader', options: { graphql: true } },
           { loader: 'babel-loader' },
         ],
+      },
+      {
+        exclude: /node_modules/,
+        test: /\.graphql$/,
+        use: [
+          {
+            loader: 'graphql-import-loader',
+          },
+        ]
       },
     ],
   },
@@ -43,9 +53,9 @@ module.exports = {
   ],
   resolve: {
     extensions: [
+      '.graphql',
       '.js',
       '.ts',
-      '.graphql',
     ]
   },
 }

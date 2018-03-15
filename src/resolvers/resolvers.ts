@@ -3,5 +3,5 @@ import Query from './Query'
 
 export default {
   Mutation,
-  Query,
+  Query
 }

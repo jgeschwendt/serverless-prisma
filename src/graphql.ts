@@ -10,7 +10,7 @@ export const handler = (event, ctx, callback) => {
       prisma: new Prisma({
         debug: process.env.PRISMA_DEBUG === 'true',
         endpoint: process.env.PRISMA_ENDPOINT,
-        secret: process.env.PRISMA_SECRET,
+        secret: process.env.PRISMA_SECRET
       })
     }),
     resolvers,
