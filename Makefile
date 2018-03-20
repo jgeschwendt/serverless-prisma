@@ -11,7 +11,8 @@ devbox:
 	@make install
 
 install:
-	@docker run --interactive --rm --tty --volume $(shell pwd):/code --workdir /code serverless/devbox yarn install
+	@docker run --interactive --rm --tty --volume $(shell pwd):/code --workdir /code \
+	serverless/devbox /root/.yarn/bin/yarn install
 
 dev:
 	@docker run \
@@ -25,11 +26,11 @@ dev:
 
 build:
 	@docker run --env-file $(ENV_FILE) --interactive --rm --tty --volume $(shell pwd):/code --workdir /code \
-	serverless/devbox yarn build
+	serverless/devbox /root/.yarn/bin/yarn build
 
 start:
 	@docker run --env-file $(ENV_FILE) --interactive --publish 4000:4000 --rm --tty --volume $(shell pwd):/code --workdir /code \
-	serverless/devbox yarn start
+	serverless/devbox /root/.yarn/bin/yarn start
 
 hard-start:
 	rm -rf node_modules
@@ -43,12 +44,12 @@ deploy:
 
 deploy-api:
 	@docker run --env-file $(ENV_FILE) --interactive --rm --tty --volume $(shell pwd):/code --workdir /code \
-	serverless/devbox yarn run deploy:api:$(ENV)
+	serverless/devbox /root/.yarn/bin/yarn run deploy:api:$(ENV)
 
 deploy-prisma:
 	@docker run --env-file $(ENV_FILE) --interactive --rm --tty --volume $(shell pwd):/code --workdir /code \
-	serverless/devbox yarn run deploy:prisma:$(ENV)
+	serverless/devbox /root/.yarn/bin/yarn run deploy:prisma:$(ENV)
 
 tsc:
 	@docker run --env-file $(ENV_FILE) --interactive --rm --tty --volume $(shell pwd):/code --workdir /code \
-	serverless/devbox yarn run tsc
+	serverless/devbox /root/.yarn/bin/yarn run tsc
