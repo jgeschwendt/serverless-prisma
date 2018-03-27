@@ -6,7 +6,7 @@ Minimal Serverless + Prisma Project Template
 
 ## Getting Started
 
-- Be sure to have `Docker` and `Make` installed on your machine.
+- Be sure to have `Docker` and `Make` installed on your machine. `Docker` is used for maintaining a consistent development/deployment environment; `Make` is used to shorten frequently used `Docker` commands.
 
 - Create an `.env` file for your local machine (refer to `~/.env.example` for the configuration requirements)
 
@@ -17,6 +17,11 @@ Minimal Serverless + Prisma Project Template
 # Create a Node Development Docker Container
 
 make devbox
+
+
+# Install Node Dependencies using the DevBox Container
+
+make install
 
 
 # Start Serverless in Offline Mode
