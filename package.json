@@ -25,16 +25,16 @@
     "graphql": "0.13.2",
     "graphql-playground-middleware-lambda": "1.5.0",
     "graphql-tag": "2.8.0",
-    "graphql-yoga": "1.6.1",
+    "graphql-yoga": "1.7.1",
     "node-fetch": "2.1.2",
     "prisma-binding": "1.5.16"
   },
   "devDependencies": {
-    "@babel/core": "7.0.0-beta.42",
-    "@babel/preset-env": "7.0.0-beta.42",
-    "@babel/preset-react": "7.0.0-beta.42",
-    "@babel/preset-stage-0": "7.0.0-beta.42",
-    "@babel/preset-typescript": "7.0.0-beta.42",
+    "@babel/core": "7.0.0-beta.43",
+    "@babel/preset-env": "7.0.0-beta.43",
+    "@babel/preset-react": "7.0.0-beta.43",
+    "@babel/preset-stage-0": "7.0.0-beta.43",
+    "@babel/preset-typescript": "7.0.0-beta.43",
     "aws-sdk": "2.218.1",
     "babel-loader": "8.0.0-beta.2",
     "babel-plugin-module-resolver": "3.1.1",
@@ -51,7 +51,7 @@
     "typescript": "2.8.1",
     "typescript-standard": "0.3.36",
     "typescript-standard-loader": "0.0.3",
-    "webpack": "4.3.0",
+    "webpack": "4.4.1",
     "webpack-node-externals": "1.7.2"
   },
   "peerDependencies": {
