@@ -17,4 +17,5 @@ install:
   - yarn
 
 script:
+  - yarn tsc
   - yarn build
