@@ -51,7 +51,7 @@
     "typescript": "2.8.1",
     "typescript-standard": "0.3.36",
     "typescript-standard-loader": "0.0.3",
-    "webpack": "4.4.1",
+    "webpack": "4.5.0",
     "webpack-node-externals": "1.7.2"
   },
   "peerDependencies": {
