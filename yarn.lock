@@ -7588,9 +7588,9 @@ serve-static@1.13.2:
     parseurl "~1.3.2"
     send "0.16.2"
 
-serverless-offline@3.20.0:
-  version "3.20.0"
-  resolved "https://registry.yarnpkg.com/serverless-offline/-/serverless-offline-3.20.0.tgz#efb0a8692cb88c1a0ae84c6538db6970d589f49b"
+serverless-offline@3.20.1:
+  version "3.20.1"
+  resolved "https://registry.yarnpkg.com/serverless-offline/-/serverless-offline-3.20.1.tgz#552666da8d703db262dbdc972abaa4a052293860"
   dependencies:
     babel-register "^6.18.0"
     boom "^4.2.0"

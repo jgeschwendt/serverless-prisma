@@ -46,7 +46,7 @@
     "npm-run-all": "4.1.2",
     "prisma": "1.5.3",
     "serverless": "1.26.1",
-    "serverless-offline": "3.20.0",
+    "serverless-offline": "3.20.1",
     "serverless-webpack": "5.1.1",
     "typescript": "2.8.1",
     "typescript-standard": "0.3.36",
