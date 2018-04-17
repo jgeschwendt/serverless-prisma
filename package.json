@@ -44,7 +44,7 @@
     "imports-loader": "0.8.0",
     "jest": "22.4.3",
     "npm-run-all": "4.1.2",
-    "prisma": "1.6.0",
+    "prisma": "1.6.1",
     "serverless": "1.26.1",
     "serverless-offline": "3.20.2",
     "serverless-webpack": "5.1.1",
