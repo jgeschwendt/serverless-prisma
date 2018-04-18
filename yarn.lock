@@ -7597,9 +7597,9 @@ serve-static@1.13.2:
     parseurl "~1.3.2"
     send "0.16.2"
 
-serverless-offline@3.20.2:
-  version "3.20.2"
-  resolved "https://registry.yarnpkg.com/serverless-offline/-/serverless-offline-3.20.2.tgz#2e0ac64252f0dcd8e8923804ba12d699eafe9eca"
+serverless-offline@3.20.3:
+  version "3.20.3"
+  resolved "https://registry.yarnpkg.com/serverless-offline/-/serverless-offline-3.20.3.tgz#0b081e1a4f93b51c49f41299262c08c70594b2c5"
   dependencies:
     babel-register "^6.18.0"
     boom "^4.2.0"
@@ -7610,6 +7610,7 @@ serverless-offline@3.20.2:
     jsonpath-plus "^0.16.0"
     jsonwebtoken "^7.4.3"
     lodash "^4.17.4"
+    uuid "^3.2.1"
     velocityjs "^0.9.3"
 
 serverless-webpack@5.1.1:
@@ -8779,7 +8780,7 @@ uuid@^2.0.2:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-2.0.3.tgz#67e2e863797215530dff318e5bf9dcebfd47b21a"
 
-uuid@^3.0.0, uuid@^3.1.0:
+uuid@^3.0.0, uuid@^3.1.0, uuid@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.2.1.tgz#12c528bb9d58d0b9265d9a2f6f0fe8be17ff1f14"
 
