@@ -22,9 +22,7 @@ module.exports = {
         exclude: /(node_modules|src\/generated)/,
         test: /\.ts$/,
         use: [
-          {
-            loader: 'typescript-standard-loader',
-          },
+          { loader: 'tslint-loader' },
         ]
       },
       {

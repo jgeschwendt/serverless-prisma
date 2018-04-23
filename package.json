@@ -32,7 +32,6 @@
   "devDependencies": {
     "@babel/core": "7.0.0-beta.46",
     "@babel/preset-env": "7.0.0-beta.46",
-    "@babel/preset-react": "7.0.0-beta.46",
     "@babel/preset-stage-0": "7.0.0-beta.46",
     "@babel/preset-typescript": "7.0.0-beta.46",
     "aws-sdk": "2.226.1",
@@ -40,7 +39,7 @@
     "babel-plugin-module-resolver": "3.1.1",
     "circular-dependency-plugin": "5.0.2",
     "graphql-import": "0.5.0",
-    "graphql-import-loader": "https://github.com/jgeschwendt/graphql-import-loader.git#dev",
+    "graphql-import-loader": "0.2.1",
     "imports-loader": "0.8.0",
     "jest": "22.4.3",
     "npm-run-all": "4.1.2",
@@ -48,10 +47,12 @@
     "serverless": "1.26.1",
     "serverless-offline": "3.20.3",
     "serverless-webpack": "5.1.1",
+    "tslint": "5.9.1",
+    "tslint-config-standard": "7.0.0",
+    "tslint-loader": "3.6.0",
     "typescript": "2.8.3",
-    "typescript-standard": "0.3.36",
-    "typescript-standard-loader": "0.0.3",
     "webpack": "4.6.0",
+    "webpack-bundle-analyzer": "2.11.1",
     "webpack-node-externals": "1.7.2"
   },
   "peerDependencies": {
