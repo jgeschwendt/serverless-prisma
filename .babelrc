@@ -13,7 +13,7 @@
             "node": "6.10"
           }
         }],
-        "@babel/stage-0",
+        ["@babel/stage-0", { "decoratorsLegacy": true }],
         "@babel/react",
         "@babel/typescript"
       ]
@@ -25,7 +25,7 @@
             "node": "6.10"
           }
         }],
-        "@babel/stage-0",
+        ["@babel/stage-0", { "decoratorsLegacy": true }],
         "@babel/react",
         "@babel/typescript"
       ]
