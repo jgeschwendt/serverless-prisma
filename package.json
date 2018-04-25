@@ -27,7 +27,7 @@
     "graphql-tag": "2.9.1",
     "graphql-yoga": "1.9.2",
     "node-fetch": "2.1.2",
-    "prisma-binding": "1.5.17"
+    "prisma-binding": "1.5.18"
   },
   "devDependencies": {
     "@babel/core": "7.0.0-beta.46",
