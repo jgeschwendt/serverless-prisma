@@ -1330,9 +1330,9 @@ aws-lambda@0.1.2, aws-lambda@^0.1.2:
     commander "^2.5.0"
     dotenv "^0.4.0"
 
-aws-sdk@2.230.1, aws-sdk@^2.228.0:
-  version "2.230.1"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.230.1.tgz#494cef6aed2e16db1ed9c12acf4bd2a7317f5365"
+aws-sdk@2.231.1:
+  version "2.231.1"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.231.1.tgz#ff0a63f73c71b6b098389b926b857b13816bd5f9"
   dependencies:
     buffer "4.9.1"
     events "1.1.1"
@@ -1348,6 +1348,21 @@ aws-sdk@2.230.1, aws-sdk@^2.228.0:
 aws-sdk@^*:
   version "2.229.1"
   resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.229.1.tgz#6123c8acee0de534a0585e1375ee19c4de54a39e"
+  dependencies:
+    buffer "4.9.1"
+    events "1.1.1"
+    ieee754 "1.1.8"
+    jmespath "0.15.0"
+    querystring "0.2.0"
+    sax "1.2.1"
+    url "0.10.3"
+    uuid "3.1.0"
+    xml2js "0.4.17"
+    xmlbuilder "4.2.1"
+
+aws-sdk@^2.228.0:
+  version "2.230.1"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.230.1.tgz#494cef6aed2e16db1ed9c12acf4bd2a7317f5365"
   dependencies:
     buffer "4.9.1"
     events "1.1.1"
