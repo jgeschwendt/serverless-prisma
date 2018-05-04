@@ -47,7 +47,7 @@
     "prisma": "1.7.4",
     "serverless": "1.27.1",
     "serverless-offline": "3.20.3",
-    "serverless-webpack": "5.1.4",
+    "serverless-webpack": "5.1.5",
     "tslint": "5.10.0",
     "tslint-config-standard": "7.0.0",
     "tslint-loader": "3.6.0",
