@@ -31,10 +31,10 @@
     "prisma-binding": "1.5.19"
   },
   "devDependencies": {
-    "@babel/core": "7.0.0-beta.48",
-    "@babel/preset-env": "7.0.0-beta.48",
-    "@babel/preset-stage-0": "7.0.0-beta.48",
-    "@babel/preset-typescript": "7.0.0-beta.48",
+    "@babel/core": "7.0.0-beta.49",
+    "@babel/preset-env": "7.0.0-beta.49",
+    "@babel/preset-stage-0": "7.0.0-beta.49",
+    "@babel/preset-typescript": "7.0.0-beta.49",
     "aws-sdk": "2.246.1",
     "babel-loader": "8.0.0-beta.3",
     "babel-plugin-module-resolver": "3.1.1",
