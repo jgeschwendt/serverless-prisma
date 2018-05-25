@@ -35,7 +35,7 @@
     "@babel/preset-env": "7.0.0-beta.49",
     "@babel/preset-stage-0": "7.0.0-beta.49",
     "@babel/preset-typescript": "7.0.0-beta.49",
-    "aws-sdk": "2.246.1",
+    "aws-sdk": "2.247.1",
     "babel-loader": "8.0.0-beta.3",
     "babel-plugin-module-resolver": "3.1.1",
     "circular-dependency-plugin": "5.0.2",
