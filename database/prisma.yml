@@ -1,18 +1,24 @@
-# the name for the service (will be part of the service's HTTP endpoint)
-service: ${env:PRISMA_SERVICE}
+# The endpoint of your Prisma API (deployed to a Prisma Sandbox).
+endpoint: ${env:PRISMA_ENDPOINT}
 
-# the cluster and stage the service is deployed to
-stage: ${env:PRISMA_STAGE}
-
-# to disable authentication:
-# disableAuth: true
-secret: ${env:PRISMA_SECRET}
-
-# the file path pointing to your data model
+# The file containing the definition of your data model.
 datamodel: datamodel.graphql
 
-# seed your service with initial data based on seed.graphql
+# Seed your service with initial data based on `seed.graphql`.
 seed:
   import: seed.graphql
 
-cluster: ${env:PRISMA_CLUSTER}
+# Download the GraphQL schema of the Prisma API into
+# `src/generated/prisma.graphql` (as specfied in `.graphqlconfig.yml`).
+# Then generate the corresponding TypeScript definitions into
+# `src/generated/prisma.ts` (also specfied in `.graphqlconfig.yml`)
+# with `graphql codegen` .
+hooks:
+  post-deploy:
+    - graphql get-schema --project database
+    - graphql codegen
+
+# If specified, the `secret` must be used to generate a JWT which is attached
+# to the `Authorization` header of HTTP requests made against the Prisma API.
+# Info: https://www.prisma.io/docs/reference/prisma-api/concepts-utee3eiquo#authentication
+secret: ${env:PRISMA_SECRET}

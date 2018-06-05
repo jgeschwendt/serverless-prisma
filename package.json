@@ -16,7 +16,9 @@
     "deploy:prisma:prod": "prisma deploy --stage prod",
     "profile": "webpack --config config/webpack/profile.js --profile --json > .webpack/stats.json && webpack-bundle-analyzer .webpack/stats.json .webpack --mode static --no-open --report .webpack/report.html",
     "start": "BABEL_ENV=development NODE_ENV=development sls offline --dontPrintOutput --host 0.0.0.0 --port 4000",
-    "tsc": "tsc"
+    "tsc": "tsc --project tsconfig.json",
+    "tslint": "tslint --exclude src/generated/prisma.ts --project tsconfig.json",
+    "tslint-fix": "tslint --exclude src/generated/prisma.ts --fix --project tsconfig.json"
   },
   "resolutions": {
     "graphql": "0.13.2"
@@ -28,7 +30,7 @@
     "graphql-tag": "2.9.2",
     "graphql-yoga": "1.14.6",
     "node-fetch": "2.1.2",
-    "prisma-binding": "1.5.19"
+    "prisma-binding": "2.0.2"
   },
   "devDependencies": {
     "@babel/core": "7.0.0-beta.49",
@@ -53,8 +55,8 @@
     "tslint-loader": "3.6.0",
     "typescript": "2.9.1",
     "webpack": "4.10.2",
-    "webpack-cli": "2.1.5",
     "webpack-bundle-analyzer": "2.13.1",
+    "webpack-cli": "2.1.5",
     "webpack-node-externals": "1.7.2"
   },
   "peerDependencies": {

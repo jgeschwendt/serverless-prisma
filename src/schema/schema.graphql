@@ -1,6 +1,7 @@
 # import Post from 'src/generated/schema.graphql'
 
 type Query {
+  node: Boolean
   feed: [Post!]!
 }
 

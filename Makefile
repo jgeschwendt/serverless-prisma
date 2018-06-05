@@ -55,3 +55,9 @@ profile:
 
 tsc:
 	@docker run $(NODE_CONTAINER) yarn run tsc
+
+tslint:
+	@docker run $(NODE_CONTAINER) yarn run tslint
+
+tslint-fix:
+	@docker run $(NODE_CONTAINER) yarn run tslint-fix

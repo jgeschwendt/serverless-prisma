@@ -13,8 +13,8 @@ package:
   individually: true
 
 plugins:
-  - serverless-offline
   - serverless-webpack
+  - serverless-offline
 
 provider:
   name: aws
