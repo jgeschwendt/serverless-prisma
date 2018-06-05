@@ -1449,7 +1449,21 @@ aws-lambda@0.1.2, aws-lambda@^0.1.2:
     commander "^2.5.0"
     dotenv "^0.4.0"
 
-aws-sdk@2.251.1, aws-sdk@^*, aws-sdk@^2.228.0:
+aws-sdk@2.252.1:
+  version "2.252.1"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.252.1.tgz#4ce45b16dc408883e20a564bd86270c67f25bb60"
+  dependencies:
+    buffer "4.9.1"
+    events "1.1.1"
+    ieee754 "1.1.8"
+    jmespath "0.15.0"
+    querystring "0.2.0"
+    sax "1.2.1"
+    url "0.10.3"
+    uuid "3.1.0"
+    xml2js "0.4.17"
+
+aws-sdk@^*, aws-sdk@^2.228.0:
   version "2.251.1"
   resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.251.1.tgz#0f7e44b45c227ab7d5c63188c42c6ac913f25bf3"
   dependencies:
