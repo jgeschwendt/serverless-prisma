@@ -5,9 +5,9 @@ frameworkVersion: '>=1.9.0 <2.0.0'
 custom:
   stage: ${opt:stage, self:provider.stage}
   webpack:
-    webpackConfig: ./webpack.config.js
     includeModules: true
     packager: yarn
+    webpackConfig: ./webpack.config.js
 
 package:
   individually: true
@@ -20,7 +20,7 @@ provider:
   name: aws
   region: us-east-1
   runtime: nodejs6.10
-  # deploymentBucket: ${env:AWS_S3_DEPLOYMENT_BUCKET}
+  deploymentBucket: ${env:ARTIFACTS_BUCKET}
   environment:
     PRISMA_DEBUG: ${env:PRISMA_DEBUG}
     PRISMA_ENDPOINT: ${env:PRISMA_ENDPOINT}
@@ -29,7 +29,7 @@ provider:
 
 functions:
   graphql:
-    name: serverless-prisma-graphql-${self:custom.stage}
+    name: serverless-prisma-${self:custom.stage}
     handler: src/graphql.handler
     events:
       - http:
@@ -43,7 +43,7 @@ functions:
           method: post
           path: /
   playground:
-    name: serverless-prisma-graphql-playground-${self:custom.stage}
+    name: serverless-prisma-playground-${self:custom.stage}
     handler: src/playground.handler
     events:
       - http:
@@ -51,3 +51,37 @@ functions:
           integration: lambda-proxy
           method: get
           path: /playground
+
+resources:
+  Resources:
+    ApiGatewayBasePathMapping:
+      DependsOn: ApiGatewayDomainName
+      Type: AWS::ApiGateway::BasePathMapping
+      Properties:
+        BasePath: ''
+        DomainName: ${env:API_DOMAIN_NAME}
+        RestApiId:
+          Ref: ApiGatewayRestApi # created by serverless, check the stack's resources
+        Stage: ${self:custom.stage}
+
+    ApiGatewayDomainName:
+      Type: AWS::ApiGateway::DomainName
+      Properties:
+        CertificateArn:	${env:API_SSL_CERT_ARN}
+        DomainName: ${env:API_DOMAIN_NAME}
+
+    ApiGatewayRecordSetGroup:
+      Type: AWS::Route53::RecordSetGroup
+      Properties:
+        HostedZoneName: ${env:API_HOSTED_ZONE}.
+        RecordSets:
+          - Name: ${env:API_DOMAIN_NAME}.
+            Type: A
+            AliasTarget:
+              DNSName: {'Fn::GetAtt': ApiGatewayDomainName.DistributionDomainName}
+              HostedZoneId: Z2FDTNDATAQYW2
+          - Name: ${env:API_DOMAIN_NAME}.
+            Type: AAAA
+            AliasTarget:
+              DNSName: {'Fn::GetAtt': ApiGatewayDomainName.DistributionDomainName}
+              HostedZoneId: Z2FDTNDATAQYW2

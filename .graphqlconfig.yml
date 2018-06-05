@@ -12,4 +12,4 @@ projects:
         - generator: prisma-binding
           language: typescript
           output:
-            binding: src/made/prisma.ts
+            binding: src/generated/prisma.ts
