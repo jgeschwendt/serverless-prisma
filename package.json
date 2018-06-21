@@ -51,7 +51,7 @@
     "serverless-offline": "3.25.4",
     "serverless-webpack": "5.1.5",
     "tslint": "5.10.0",
-    "tslint-config-standard": "7.0.0",
+    "tslint-config-standard": "7.1.0",
     "tslint-loader": "3.6.0",
     "typescript": "2.9.2",
     "webpack": "4.12.0",
