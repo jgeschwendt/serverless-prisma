@@ -3794,9 +3794,9 @@ graphql-playground-middleware-lambda@1.6.1:
   dependencies:
     graphql-playground-html "1.5.5"
 
-graphql-playground-middleware-lambda@1.7.0:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/graphql-playground-middleware-lambda/-/graphql-playground-middleware-lambda-1.7.0.tgz#49f883d38637f37025ccb9aaf9ca7d2ebd29acda"
+graphql-playground-middleware-lambda@1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/graphql-playground-middleware-lambda/-/graphql-playground-middleware-lambda-1.7.1.tgz#cdd38da6f7c570f29afc77e4fc01d6f7debcef7e"
   dependencies:
     graphql-playground-html "1.6.0"
 
