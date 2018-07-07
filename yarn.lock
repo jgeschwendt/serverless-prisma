@@ -7308,9 +7308,9 @@ serverless-offline@3.25.6:
     uuid "^3.2.1"
     velocityjs "^0.9.3"
 
-serverless-webpack@5.1.5:
-  version "5.1.5"
-  resolved "https://registry.yarnpkg.com/serverless-webpack/-/serverless-webpack-5.1.5.tgz#00ecefc91ed2339319fe3df3e6b02f9d3df7c517"
+serverless-webpack@5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/serverless-webpack/-/serverless-webpack-5.2.0.tgz#3ad2de29506ad79a25d0ac8dc3f0a647b4944175"
   dependencies:
     archiver "^2.1.1"
     bluebird "^3.5.1"
