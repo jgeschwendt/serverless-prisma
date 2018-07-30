@@ -7345,9 +7345,9 @@ serverless-webpack@5.2.0:
     semver "^5.5.0"
     ts-node "^3.2.0"
 
-serverless@1.29.1:
-  version "1.29.1"
-  resolved "https://registry.yarnpkg.com/serverless/-/serverless-1.29.1.tgz#e47bfdb89069fa9bbd08da7f46fcc93fca451459"
+serverless@1.29.2:
+  version "1.29.2"
+  resolved "https://registry.yarnpkg.com/serverless/-/serverless-1.29.2.tgz#6dbc6d471bddb300b63c193d7f27a2a331af4445"
   dependencies:
     "@serverless/platform-sdk" "^0.2.0"
     archiver "^1.1.0"
