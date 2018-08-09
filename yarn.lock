@@ -798,9 +798,9 @@
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@heroku/linewrap/-/linewrap-1.0.0.tgz#a9d4e99f0a3e423a899b775f5f3d6747a1ff15c6"
 
-"@serverless/platform-sdk@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@serverless/platform-sdk/-/platform-sdk-0.2.0.tgz#4394afb221b215e27b0f5c4ef713f93ec88cb2d5"
+"@serverless/platform-sdk@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@serverless/platform-sdk/-/platform-sdk-0.2.1.tgz#1c6a804f489dcb85e2af641c9ed7c85cc202dc8b"
   dependencies:
     babel-polyfill "^6.26.0"
     body-parser "^1.18.3"
@@ -7347,11 +7347,11 @@ serverless-webpack@5.2.0:
     semver "^5.5.0"
     ts-node "^3.2.0"
 
-serverless@1.29.2:
-  version "1.29.2"
-  resolved "https://registry.yarnpkg.com/serverless/-/serverless-1.29.2.tgz#6dbc6d471bddb300b63c193d7f27a2a331af4445"
+serverless@1.30.0:
+  version "1.30.0"
+  resolved "https://registry.yarnpkg.com/serverless/-/serverless-1.30.0.tgz#03a36fe7c7d6e82fa7053f937425fb9f69da660f"
   dependencies:
-    "@serverless/platform-sdk" "^0.2.0"
+    "@serverless/platform-sdk" "^0.2.1"
     archiver "^1.1.0"
     async "^1.5.2"
     aws-sdk "^2.228.0"
