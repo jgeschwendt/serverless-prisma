@@ -1,23 +1,21 @@
 {
-  "plugins": [
-    ["module-resolver", {
-      "extensions": [".js", ".ts"],
-      "root": ["./src"]
-    }]
-  ],
   "env": {
     "development": {
+      "plugins": [
+        ["module-resolver", { "extensions": [".ts"], "root": ["./src"] }]
+      ],
       "presets": [
-        ["@babel/env", { "targets": { "node": "6.10" }}],
-        ["@babel/stage-0", { "decoratorsLegacy": true }],
-        "@babel/typescript"
+        ["@babel/env", { "targets": { "node": "8.10" }}],
+        ["@babel/typescript"]
       ]
     },
     "production": {
+      "plugins": [
+        ["module-resolver", { "extensions": [".ts"], "root": ["./src"] }]
+      ],
       "presets": [
-        ["@babel/env", { "targets": { "node": "6.10" }}],
-        ["@babel/stage-0", { "decoratorsLegacy": true }],
-        "@babel/typescript"
+        ["@babel/env", { "targets": { "node": "8.10" }}],
+        ["@babel/typescript"]
       ]
     }
   }

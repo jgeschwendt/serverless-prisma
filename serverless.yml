@@ -19,7 +19,7 @@ plugins:
 provider:
   name: aws
   region: us-east-1
-  runtime: nodejs6.10
+  runtime: nodejs8.10
   deploymentBucket: ${env:ARTIFACTS_BUCKET}
   environment:
     PRISMA_DEBUG: ${env:PRISMA_DEBUG}
