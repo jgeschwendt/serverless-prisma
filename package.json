@@ -40,7 +40,7 @@
     "babel-loader": "8.0.2",
     "babel-plugin-module-resolver": "3.1.1",
     "circular-dependency-plugin": "5.0.2",
-    "graphql-import": "0.7.0",
+    "graphql-import": "0.7.1",
     "graphql-import-loader": "0.2.1",
     "imports-loader": "0.8.0",
     "jest": "23.6.0",
