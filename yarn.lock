@@ -9163,10 +9163,10 @@ serve-static@1.13.2:
     parseurl "~1.3.2"
     send "0.16.2"
 
-serverless-offline@3.25.15:
-  version "3.25.15"
-  resolved "https://registry.yarnpkg.com/serverless-offline/-/serverless-offline-3.25.15.tgz#fc41f9ec45b0dba19d2c12e1666fffc7b6fb4029"
-  integrity sha512-tCVDcJlA2y1NTTTDZqz/cNJ/V/oSdMik78cs2B8rBYmCFmy/grWrtUmGWZHtPKZN6heiKINFMKWllFwLhTNwHw==
+serverless-offline@3.25.16:
+  version "3.25.16"
+  resolved "https://registry.yarnpkg.com/serverless-offline/-/serverless-offline-3.25.16.tgz#d52cec764cd6fd77f90971741000ade7d38136f9"
+  integrity sha512-FOM6V2VCmiwFUR33fVtnaPM0Ug7rPbVFTNqgASqKS/GpOs6oXw+fkPooi/pYby8SNtZL7/dOKy5+kt+hQQIidA==
   dependencies:
     "@babel/core" "^7.0.0"
     "@babel/register" "^7.0.0"
