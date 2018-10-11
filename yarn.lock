@@ -1597,10 +1597,10 @@ aws-lambda@0.1.2, aws-lambda@^0.1.2:
     commander "^2.5.0"
     dotenv "^0.4.0"
 
-aws-sdk@2.332.0:
-  version "2.332.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.332.0.tgz#e0d13154fecf817cea841db91a5008e342fc7b41"
-  integrity sha512-sPiuApoHS6EOXGLcfneoyXrGvY96lK+Il3Ub/JBu4QuRHJ/689sc7fIMcUxwEZkDQHAsPuc3rZXAcY7U3OVchg==
+aws-sdk@2.333.0:
+  version "2.333.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.333.0.tgz#0075a28a999ee7d8a344c715e34a269977f3ecb2"
+  integrity sha512-WbBqh+baWWauC8Sxv0WAkUWvGEO8wjjis0qkprwqgOtuIhKCWt701H5OSPB6LCbBXYMgRtOvtOionqSTJW1HDg==
   dependencies:
     buffer "4.9.1"
     events "1.1.1"
