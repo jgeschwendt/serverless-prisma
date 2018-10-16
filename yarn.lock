@@ -4331,10 +4331,10 @@ graphql-playground-middleware-lambda@1.6.1:
   dependencies:
     graphql-playground-html "1.5.5"
 
-graphql-playground-middleware-lambda@1.7.3:
-  version "1.7.3"
-  resolved "https://registry.yarnpkg.com/graphql-playground-middleware-lambda/-/graphql-playground-middleware-lambda-1.7.3.tgz#5c348d0fc12d2d37d1764841cf23a54ff1d6ab0c"
-  integrity sha512-QJnAqt0AYXph2iXG4PjdbO8IHhSN5v6lLdGUun1sNidn+8t2lGjIjrsaAp/xgmGuTRWUSCW1sd2Y9pjOtruvOQ==
+graphql-playground-middleware-lambda@1.7.4:
+  version "1.7.4"
+  resolved "https://registry.yarnpkg.com/graphql-playground-middleware-lambda/-/graphql-playground-middleware-lambda-1.7.4.tgz#37fba2e18b4d37f7df192d34d4c814511cac04da"
+  integrity sha512-UutoDrECCqN9A5u1J9aNDS+s9ZyDJ7S4110Yfyp4ykPqlDQTPJ9I4sq8iHmRBp7ks+hG45SO8sM0wwiJMAZF9g==
   dependencies:
     graphql-playground-html "1.6.0"
 
