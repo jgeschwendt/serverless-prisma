@@ -7543,10 +7543,10 @@ prisma-binding@2.1.6:
     subscriptions-transport-ws "0.9.8"
     yargs "12.0.1"
 
-prisma-cli-core@1.18.0:
-  version "1.18.0"
-  resolved "https://registry.yarnpkg.com/prisma-cli-core/-/prisma-cli-core-1.18.0.tgz#f54c7062551828c423088a7d936179018a54cbe0"
-  integrity sha512-VadEr48I5LHU3kFrsTseJ5DUkSeWEG305wMnsgZS+5E9CzzqQnRJ+m8CSzkydqEDRVt5eXwu7GTsegtBPVNZPA==
+prisma-cli-core@1.18.1:
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/prisma-cli-core/-/prisma-cli-core-1.18.1.tgz#3865ce1e02e574804d045cc839f5cffc97c7c5db"
+  integrity sha512-riU6a5Y9gcfPHqsHUTd1dGm5wOtTjas+q34yWk633Eae7OZ4eUuycv2T2P8caniMWc0OgxTB4HeGZZlhoLSA6A==
   dependencies:
     adm-zip "^0.4.7"
     archiver "^2.0.3"
@@ -7579,11 +7579,11 @@ prisma-cli-core@1.18.0:
     opn "^5.1.0"
     pause "^0.1.0"
     portfinder "^1.0.13"
-    prisma-client-lib "1.18.0"
-    prisma-db-introspection "1.18.0"
-    prisma-generate-schema "1.18.0"
+    prisma-client-lib "1.18.1"
+    prisma-db-introspection "1.18.1"
+    prisma-generate-schema "1.18.1"
     prisma-json-schema "0.1.2"
-    prisma-yml "1.18.0"
+    prisma-yml "1.18.1"
     scuid "^1.0.2"
     semver "^5.4.1"
     sillyname "^0.1.0"
@@ -7592,10 +7592,10 @@ prisma-cli-core@1.18.0:
     util.promisify "^1.0.0"
     validator "^8.2.0"
 
-prisma-cli-engine@1.18.0:
-  version "1.18.0"
-  resolved "https://registry.yarnpkg.com/prisma-cli-engine/-/prisma-cli-engine-1.18.0.tgz#2d51675ddde8f67846b8222a83a4d3f9df972694"
-  integrity sha512-DTpdZFhZCXNYnuR29L5yKuUbDjcL3hhB8JAqGT4rhfk4J2+nuwM2/xoc8J0b4U1hPoN0RhzBvsescUhB0xt4Rw==
+prisma-cli-engine@1.18.1:
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/prisma-cli-engine/-/prisma-cli-engine-1.18.1.tgz#2115fb578adec87bd399a0047f24bddb24adedd1"
+  integrity sha512-JM7HDCZkMvfc7ZxMdYJ2N9llu54uu7Wz0YCLVbkWZ9eJzq+VOg4/xF5Z/6EMPgADzXCGdXS6n/2/1y718nNDiQ==
   dependencies:
     "@heroku/linewrap" "^1.0.0"
     ajv "5"
@@ -7637,7 +7637,7 @@ prisma-cli-engine@1.18.0:
     memfs "^2.5.3"
     opn "^5.1.0"
     prisma-json-schema "0.1.2"
-    prisma-yml "1.18.0"
+    prisma-yml "1.18.1"
     raven "2.3.0"
     replaceall "^0.1.6"
     rwlockfile "^1.4.8"
@@ -7652,10 +7652,10 @@ prisma-cli-engine@1.18.0:
     update-notifier "^2.3.0"
     validator "^8.2.0"
 
-prisma-client-lib@1.18.0:
-  version "1.18.0"
-  resolved "https://registry.yarnpkg.com/prisma-client-lib/-/prisma-client-lib-1.18.0.tgz#eaef0d827adb99e76c6e208b32c26561bfae5814"
-  integrity sha512-/xw1ENQqy1ZThd4+CdTZhN8sCSHbe3USh/KLjV0VJk4xpy/uImM9dVApi6D1NJZFjrlnMsG33DdNNRwLOpVuRA==
+prisma-client-lib@1.18.1:
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/prisma-client-lib/-/prisma-client-lib-1.18.1.tgz#6846fff6503fed46f4aa7965a0bde50d51086735"
+  integrity sha512-eSPMk17p0zvG13aIOarcmE8YwWLIlygjDdperwSBOH8H1gh2sgBfLHGOM3r7H+lIvpqbN4ipHriA2n+sT6sL5w==
   dependencies:
     "@types/node" "^10.9.4"
     debug "^4.0.1"
@@ -7669,10 +7669,10 @@ prisma-client-lib@1.18.0:
     ws "^6.0.0"
     zen-observable "^0.8.9"
 
-prisma-db-introspection@1.18.0:
-  version "1.18.0"
-  resolved "https://registry.yarnpkg.com/prisma-db-introspection/-/prisma-db-introspection-1.18.0.tgz#18f369777e3dc78c99bf84f2d66dd56a38ba25be"
-  integrity sha512-lyAM86sUL8H06dPW0kdG9MdH4QteQUkNk2xuMryw/els0/rOd1zZ3f/debIg33xrKzkNLH8zJaoc0hcixTDmdQ==
+prisma-db-introspection@1.18.1:
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/prisma-db-introspection/-/prisma-db-introspection-1.18.1.tgz#34c0364a04134910ff1630f42cc199c2f3860dc3"
+  integrity sha512-4ZvhhXy9rGRtJfbtNupBR/z50WiZ2PYgYWV/p1Dlist4LbzhmQDE4CKYVGDBOt/AxgNC/3jGOKpacnZmtIS8Cw==
   dependencies:
     ajv "5"
     bluebird "^3.5.1"
@@ -7689,16 +7689,16 @@ prisma-db-introspection@1.18.0:
     pg "^7.4.1"
     pluralize "^7.0.0"
     prisma-json-schema "0.1.2"
-    prisma-yml "1.18.0"
+    prisma-yml "1.18.1"
     replaceall "^0.1.6"
     scuid "^1.0.2"
     uppercamelcase "^3.0.0"
     yaml-ast-parser "^0.0.40"
 
-prisma-generate-schema@1.18.0:
-  version "1.18.0"
-  resolved "https://registry.yarnpkg.com/prisma-generate-schema/-/prisma-generate-schema-1.18.0.tgz#fd407e5a6f3fbb657fc2bbd3a31ca94d339a70f0"
-  integrity sha512-V2gEDNPcCZHe+QvfjeHoTGubSxMrU97N0tVPTc5a6pbISassMzZWj82XcF30rbUvMJm67djisaOb0IvJX7wNsg==
+prisma-generate-schema@1.18.1:
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/prisma-generate-schema/-/prisma-generate-schema-1.18.1.tgz#514c75585bd20cfbb87d000d526dcbf2af8cce68"
+  integrity sha512-vRwzgAeh10PP64Em0FJowa0yROma/10kNvHN+X/wk3gGz1mTGWWLbkQI/jQxKfgVtG1hcv6W5d2asQsTFYt8xA==
   dependencies:
     "@types/jest" "^23.3.1"
     graphql "^14.0.2"
@@ -7741,10 +7741,10 @@ prisma-yml@1.0.97:
     scuid "^1.0.2"
     yaml-ast-parser "^0.0.40"
 
-prisma-yml@1.18.0:
-  version "1.18.0"
-  resolved "https://registry.yarnpkg.com/prisma-yml/-/prisma-yml-1.18.0.tgz#0969e125e3a297882f5c1056406d93b7bc956e45"
-  integrity sha512-7hpgJjat9NyBlfbTfCS2k6UtyrUYnlxiE5rsM4EMfE+VyN4gfAWGBeRHc+i2GVfSEaQnwBPdZM3G4rzo+B5cag==
+prisma-yml@1.18.1:
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/prisma-yml/-/prisma-yml-1.18.1.tgz#3fd82c55cfd1cde9e4d729118ecb4f47c349ef31"
+  integrity sha512-kJZE0nAEYUHzd0TTFHgnybCm07ckXHjP+9Wk66koTkx4NFvv7xqPc1ACvkYI9Zd9ZHb1OdmYXFAUNws1b0xU2w==
   dependencies:
     ajv "5"
     bluebird "^3.5.1"
@@ -7765,14 +7765,14 @@ prisma-yml@1.18.0:
     scuid "^1.0.2"
     yaml-ast-parser "^0.0.40"
 
-prisma@1.18.0:
-  version "1.18.0"
-  resolved "https://registry.yarnpkg.com/prisma/-/prisma-1.18.0.tgz#e6d6f442c6c88ef1a34d2ac46e731375f4153317"
-  integrity sha512-C0vpnwtJfmSA6z1qLEE+Y0/cN61j+ypQf6TekFJk4BjkyH/5Nqro5LhBpCcXJsR9QVjOm2A1HVZsG2bNtSGpmQ==
+prisma@1.18.1:
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/prisma/-/prisma-1.18.1.tgz#a7e490ff6fa4f1698de3dba0c5ac6b13929ee7c3"
+  integrity sha512-B9yeKpKcEc2HLejHEDhk0EGRGrXzhTg8Tk7gx2tCr8ZSxmPdFg4rZHvposkxXS7nni/E7xyGX2dQ5fr4Q3ZM2A==
   dependencies:
     fs-extra "^5.0.0"
-    prisma-cli-core "1.18.0"
-    prisma-cli-engine "1.18.0"
+    prisma-cli-core "1.18.1"
+    prisma-cli-engine "1.18.1"
     require-onct "^0.0.2"
     semver "^5.4.1"
     source-map-support "^0.4.18"
