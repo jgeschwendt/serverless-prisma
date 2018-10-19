@@ -8497,10 +8497,10 @@ serve-static@1.13.2:
     parseurl "~1.3.2"
     send "0.16.2"
 
-serverless-offline@3.27.0:
-  version "3.27.0"
-  resolved "https://registry.yarnpkg.com/serverless-offline/-/serverless-offline-3.27.0.tgz#de30731097572452f3bb4bd18c2a7c921e24e423"
-  integrity sha512-2/+VJ+dORzcD7qyxFxmXANSH/tYTphYH2f3lUqlBylV/zY0imq639qtD4oE8KQX9AixAQL3hfCOrc7E4HZR6IQ==
+serverless-offline@3.28.0:
+  version "3.28.0"
+  resolved "https://registry.yarnpkg.com/serverless-offline/-/serverless-offline-3.28.0.tgz#00e1745bd5fca7cbd84c6514228e047b49b3f419"
+  integrity sha512-M0xrtIbw5RKDoumSI1775BKx7ZZYmMrBIRaO20dfIkcohQ/24BWIFA/+UhddKPG1nPM7HxCNGY3lSsB00QttHQ==
   dependencies:
     "@babel/core" "^7.0.0"
     "@babel/register" "^7.0.0"
