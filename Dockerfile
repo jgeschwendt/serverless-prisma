@@ -5,7 +5,7 @@ RUN curl -o- -L https://yarnpkg.com/install.sh | bash
 ENV PATH /root/.yarn/bin:/root/.config/yarn/global/node_modules/.bin:$PATH
 
 # install global node modules
-RUN yarn global add graphql prisma
+RUN yarn global add prisma
 
 # check versions
 RUN yarn --version

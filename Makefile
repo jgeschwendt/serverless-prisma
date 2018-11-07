@@ -27,6 +27,9 @@ install:
 dev:
 	@docker run $(NODE_CONTAINER) /bin/bash
 
+graphqlgen:
+	@docker run $(NODE_CONTAINER) yarn run graphqlgen
+
 build:
 	@docker run $(NODE_CONTAINER) yarn build
 

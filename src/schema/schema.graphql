@@ -1,4 +1,5 @@
-# import Post from 'src/generated/schema.graphql'
+# import { Post } from "./types/Post.graphql"
+# import { User } from "./types/User.graphql"
 
 type Query {
   node: Boolean
@@ -7,9 +8,4 @@ type Query {
 
 type Mutation {
   ping(id: String!): String
-}
-
-type schema {
-  query: Query
-  mutation: Mutation
 }

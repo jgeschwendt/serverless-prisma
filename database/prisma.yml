@@ -15,8 +15,13 @@ seed:
 # with `graphql codegen` .
 hooks:
   post-deploy:
-    - graphql get-schema --project database
-    - graphql codegen
+    - prisma generate
+
+generate:
+  - generator: graphql-schema
+    output: ../src/generated/graphql-schema/
+  - generator: typescript-client
+    output: ../src/generated/prisma-client/
 
 # If specified, the `secret` must be used to generate a JWT which is attached
 # to the `Authorization` header of HTTP requests made against the Prisma API.

@@ -42,15 +42,6 @@ functions:
           integration: lambda-proxy
           method: post
           path: /
-  playground:
-    name: serverless-prisma-playground-${self:custom.stage}
-    handler: src/playground.handler
-    events:
-      - http:
-          cors: true
-          integration: lambda-proxy
-          method: get
-          path: /playground
 
 resources:
   Resources:

@@ -38,7 +38,7 @@ module.exports = {
         test: /\.graphql$/,
         use: [
           {
-            loader: 'graphql-import-loader',
+            loader: require.resolve('./config/webpack/graphql-import-loader.js')
           },
         ]
       },
