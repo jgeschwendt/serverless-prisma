@@ -8723,10 +8723,10 @@ serverless-webpack@5.2.0:
     semver "^5.5.0"
     ts-node "^3.2.0"
 
-serverless@1.33.0:
-  version "1.33.0"
-  resolved "https://registry.yarnpkg.com/serverless/-/serverless-1.33.0.tgz#0703958b7cbf6e127ad5ae72b9af084fca863006"
-  integrity sha512-CF8dFr2l0Z8Kr5X08x0z9++fzzLIIGoS0uOAHAeA3/XvGVY+sFlzbfzUShgbNlyOJvxbI8kvXJsC9N5huV2bFA==
+serverless@1.33.1:
+  version "1.33.1"
+  resolved "https://registry.yarnpkg.com/serverless/-/serverless-1.33.1.tgz#94436952214f47237244be66b683fff0e77470e3"
+  integrity sha512-dQZ2gqQzxO4iZaE8n+3rc9aKxu3jZhqGRDIdu7HZOOZ9SuDP6STl6Z31PJxxfdRLJ8PNUu0UHQtT0hyjgcNHBQ==
   dependencies:
     "@serverless/platform-sdk" "^0.3.0"
     archiver "^1.1.0"
