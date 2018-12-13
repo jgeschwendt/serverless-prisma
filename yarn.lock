@@ -1713,7 +1713,7 @@ aws-lambda@0.1.2, aws-lambda@^0.1.2:
     commander "^2.5.0"
     dotenv "^0.4.0"
 
-aws-sdk@2.375.0:
+aws-sdk@2.375.0, aws-sdk@^2.373.0:
   version "2.375.0"
   resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.375.0.tgz#84b19fb1e45455e7e435d7e13ed8ddc29a949ee5"
   integrity sha512-p0rRNstWUushzMlafNzQiPPucI/9PFe5hpZ0eKDSenZQD6DUmnXGEYwIwJ1KOZ0l7u1GBSgPdKswZglprZVXSA==
@@ -1728,7 +1728,7 @@ aws-sdk@2.375.0:
     uuid "3.1.0"
     xml2js "0.4.19"
 
-aws-sdk@^*, aws-sdk@^2.228.0:
+aws-sdk@^*:
   version "2.306.0"
   resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.306.0.tgz#104f69b6d2291ba94cb401105514c242be51aac4"
   integrity sha512-GEvZJ8J9+bSMHUjlXcUS5TOWCxirQDiMIdvSwXV/okKC4lJ/mQc3C/pPiSM/ppsMQRoMFJlYxO9uubkmGgwCwQ==
@@ -6682,7 +6682,7 @@ nan@^2.9.2:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.11.0.tgz#574e360e4d954ab16966ec102c0c049fd961a099"
   integrity sha512-F4miItu2rGnV2ySkXOQoA8FKz/SR2Q2sWP0sbTxNxz/tuokeC8WxOhPMcwi0qIyGtVn/rrSeLbvVkznqCdwYnw==
 
-nanomatch@^1.2.9:
+nanomatch@^1.2.13, nanomatch@^1.2.9:
   version "1.2.13"
   resolved "https://registry.yarnpkg.com/nanomatch/-/nanomatch-1.2.13.tgz#b87a8aa4fc0de8fe6be88895b38983ff265bd119"
   integrity sha512-fpoe2T0RbHwBTBUOftAfBPaDEi06ufaUai0mE6Yn1kacc3SnTErfb/h+X94VXzI64rKFHYImXSvdwGGCmwOqCA==
@@ -8545,15 +8545,15 @@ serverless-webpack@5.2.0:
     semver "^5.5.0"
     ts-node "^3.2.0"
 
-serverless@1.34.1:
-  version "1.34.1"
-  resolved "https://registry.yarnpkg.com/serverless/-/serverless-1.34.1.tgz#86de2a26b8f9e167afcf2dc0282c8372a42ce80d"
-  integrity sha512-fkCcbjQjIBJ3S8nS2ZoG+betBRUnlLj8zu5eV657qXqneO9+qZK8efVZJIV67hSoRXTniUMw7lYxl4JUE7bRHg==
+serverless@1.35.0:
+  version "1.35.0"
+  resolved "https://registry.yarnpkg.com/serverless/-/serverless-1.35.0.tgz#3906be0d462427830501c2f7c91955346a74b04c"
+  integrity sha512-6OLw/8RSxYKmMUXWr4/+rlIyY7Qoc4zdcCS+Ro9j8Rw77lne0NTwkz0UGufdUcqmRqziV6vHx5N2moslh3pNtw==
   dependencies:
     "@serverless/platform-sdk" "^0.3.0"
     archiver "^1.1.0"
     async "^1.5.2"
-    aws-sdk "^2.228.0"
+    aws-sdk "^2.373.0"
     bluebird "^3.5.0"
     chalk "^2.0.0"
     ci-info "^1.1.1"
@@ -8573,6 +8573,7 @@ serverless@1.34.1:
     lodash "^4.13.1"
     minimist "^1.2.0"
     moment "^2.13.0"
+    nanomatch "^1.2.13"
     node-fetch "^1.6.0"
     object-hash "^1.2.0"
     promise-queue "^2.2.3"
