@@ -8591,10 +8591,10 @@ serverless-webpack@5.2.0:
     semver "^5.5.0"
     ts-node "^3.2.0"
 
-serverless@1.35.0:
-  version "1.35.0"
-  resolved "https://registry.yarnpkg.com/serverless/-/serverless-1.35.0.tgz#3906be0d462427830501c2f7c91955346a74b04c"
-  integrity sha512-6OLw/8RSxYKmMUXWr4/+rlIyY7Qoc4zdcCS+Ro9j8Rw77lne0NTwkz0UGufdUcqmRqziV6vHx5N2moslh3pNtw==
+serverless@1.35.1:
+  version "1.35.1"
+  resolved "https://registry.yarnpkg.com/serverless/-/serverless-1.35.1.tgz#636ef3a13f40d9ff2341784b57f9478cd23ea9e6"
+  integrity sha512-dywZe5ky45VfvWoZyYrrxOi39HaC2rMjz6rYNGAg1SH5WbzKOHe3O5Wrnc/gteQiA7OViTJlcchiQwtk8x6gdA==
   dependencies:
     "@serverless/platform-sdk" "^0.3.0"
     archiver "^1.1.0"
