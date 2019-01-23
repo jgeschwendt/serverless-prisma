@@ -46,7 +46,7 @@
     "jest": "23.6.0",
     "npm-run-all": "4.1.5",
     "prisma": "1.25.0",
-    "serverless": "1.36.2",
+    "serverless": "1.36.3",
     "serverless-offline": "3.33.0",
     "serverless-webpack": "5.2.0",
     "tslint": "5.12.1",
