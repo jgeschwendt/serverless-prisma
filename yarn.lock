@@ -4424,17 +4424,17 @@ graphql-playground-html@1.6.0:
   dependencies:
     graphql-config "2.0.0"
 
+graphql-playground-html@1.6.10:
+  version "1.6.10"
+  resolved "https://registry.yarnpkg.com/graphql-playground-html/-/graphql-playground-html-1.6.10.tgz#edb68f67ce71c4a092d163e1b435ea2e73bbe0d8"
+  integrity sha512-PZFVWJqNct7+tSlVSseH/YRHj9T0Que0Q8hskaCLGDmyGZVkv5XM3k5LUybR4LKXJqi7x4ekEkK6R4M4CQPGnQ==
+
 graphql-playground-html@1.6.4:
   version "1.6.4"
   resolved "https://registry.yarnpkg.com/graphql-playground-html/-/graphql-playground-html-1.6.4.tgz#be7c5a6213d67aeedf03d90b7e7d55fec4d42212"
   integrity sha512-mnpAVYSR3TesYsJ5OLJVJMA0muTCw4npsCI1cKMtW35lbA6KljZkLkz3ZWXhEIYPnHKIeUHEtbn1ZGkEXtAxLg==
   dependencies:
     graphql-config "2.2.1"
-
-graphql-playground-html@1.6.6:
-  version "1.6.6"
-  resolved "https://registry.yarnpkg.com/graphql-playground-html/-/graphql-playground-html-1.6.6.tgz#f4efe0915a01dc79154b836fe3c980cebb7b56d2"
-  integrity sha512-VfCnMK24BwOAGhFzjknlboK0qs92d+1sHUDGQUgIAjOsTSNWmqfgNkDZsONZqUajfuVjOYRd0PxCDkCkaJs7Rw==
 
 graphql-playground-middleware-express@1.7.6:
   version "1.7.6"
@@ -4457,12 +4457,12 @@ graphql-playground-middleware-lambda@1.7.6:
   dependencies:
     graphql-playground-html "1.6.4"
 
-graphql-playground-middleware-lambda@1.7.8:
-  version "1.7.8"
-  resolved "https://registry.yarnpkg.com/graphql-playground-middleware-lambda/-/graphql-playground-middleware-lambda-1.7.8.tgz#9d56ea4a5b00db7efdbdf66f5d10d42dc61aee74"
-  integrity sha512-wbErMDbeG33kWqdU2p7iIji/wIp1azPG3CmvPrh+VispfL1hy6UykfpDiugy2YqI39fOHnWjF640s+y0mjDcWg==
+graphql-playground-middleware-lambda@1.7.9:
+  version "1.7.9"
+  resolved "https://registry.yarnpkg.com/graphql-playground-middleware-lambda/-/graphql-playground-middleware-lambda-1.7.9.tgz#882913e36380eeccdf3635c8720c62f8e90337f8"
+  integrity sha512-k2EUIFzh7uYhnaRRrVH1hS8SjLzkCZFoUMzLjKH3NMCdihXS/SJtpEzpaUgLB9eKPI8ggdJVMS84YYftU5kHkw==
   dependencies:
-    graphql-playground-html "1.6.6"
+    graphql-playground-html "1.6.10"
 
 graphql-request@^1.4.0, graphql-request@^1.5.0:
   version "1.8.2"
