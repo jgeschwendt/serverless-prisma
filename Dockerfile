@@ -1,4 +1,4 @@
-FROM node:latest@sha256:53caf7b35b949f365fdec7b599e495f125d6e3a54104caf05594a82e01343146
+FROM node:latest@sha256:02671bb60e5213b9fabda4e078783db86b2cf97ed996f9198a40411fb2639721
 
 # install the latest version of yarn
 RUN curl -o- -L https://yarnpkg.com/install.sh | bash
