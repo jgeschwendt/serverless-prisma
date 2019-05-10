@@ -8632,10 +8632,10 @@ serverless-webpack@5.3.0:
     semver "^5.5.0"
     ts-node "^3.2.0"
 
-serverless@1.42.1:
-  version "1.42.1"
-  resolved "https://registry.yarnpkg.com/serverless/-/serverless-1.42.1.tgz#6245283df8d3c22abad795aa0d9b10502190b11d"
-  integrity sha512-h/ZzXz03EbxYIkTtZ4+MciWJjejz2xFp7m6FIi/GXHTmDdj3tLucUxWMExieCMpCzGD9qWP2wXb3T0wLvoF0Fw==
+serverless@1.42.2:
+  version "1.42.2"
+  resolved "https://registry.yarnpkg.com/serverless/-/serverless-1.42.2.tgz#1387d0effb8b19c7ee9cf7af6774227b315d7cbc"
+  integrity sha512-+XV0NhYhqw+lVIoHgqpuYpAJcK0ukw++mPLvcBgOHbooA/ytF2HOYI4hOxQYAGarYMwtBXMUw7y6MWfLWtKggA==
   dependencies:
     archiver "^1.1.0"
     async "^1.5.2"
