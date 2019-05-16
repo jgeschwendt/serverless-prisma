@@ -29,7 +29,7 @@
     "graphql-playground-middleware-lambda": "1.7.13",
     "graphql-tag": "2.10.1",
     "graphql-yoga": "1.17.4",
-    "node-fetch": "2.5.0",
+    "node-fetch": "2.6.0",
     "prisma-binding": "2.3.10"
   },
   "devDependencies": {
