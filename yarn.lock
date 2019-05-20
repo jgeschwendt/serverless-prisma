@@ -8601,10 +8601,10 @@ serve-static@1.13.2:
     parseurl "~1.3.2"
     send "0.16.2"
 
-serverless-offline@4.10.3:
-  version "4.10.3"
-  resolved "https://registry.yarnpkg.com/serverless-offline/-/serverless-offline-4.10.3.tgz#dcac3585a6fcb07fa205cadaf12934782d893f50"
-  integrity sha512-5N7BDsPu3B9dEvIB4l2ljZmzjug9bOF486ZzDczy5fL++09UCmLY5Mo+ye5K/mb6NCpe0IQD9zZoBHjgncRoXg==
+serverless-offline@4.10.4:
+  version "4.10.4"
+  resolved "https://registry.yarnpkg.com/serverless-offline/-/serverless-offline-4.10.4.tgz#5f09e2e47270f915645affc1b71592a04444013d"
+  integrity sha512-sHmrGseG1zxuubLy9kLnZhwd5mUXBKB4L/y8SxzD5blB2xvghO/vU8TWgbrbK5fIxjVdogKK8oTl2BoQN8cNvQ==
   dependencies:
     boom "^7.3.0"
     cryptiles "^4.1.3"
