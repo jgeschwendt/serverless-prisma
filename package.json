@@ -52,7 +52,7 @@
     "tslint": "5.17.0",
     "tslint-config-standard": "8.0.1",
     "tslint-loader": "3.6.0",
-    "typescript": "3.5.1",
+    "typescript": "3.5.2",
     "webpack": "4.34.0",
     "webpack-bundle-analyzer": "3.3.2",
     "webpack-cli": "3.3.4",
