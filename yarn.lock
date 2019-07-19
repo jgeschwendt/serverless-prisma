@@ -1045,10 +1045,10 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@serverless/cli@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@serverless/cli/-/cli-1.0.0.tgz#2c10f3fbf1844824c7fa64ca888825303a3da7c7"
-  integrity sha512-JnPLdFSaqLIinnpFEn4zd5/bJovgryQ2UAcwWhDWf7HFuan9gJhsOiUNHbwi30e7vdRni5+/lgGqmXhRW1Wjcw==
+"@serverless/cli@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@serverless/cli/-/cli-1.0.1.tgz#0929dd92bebb834a33017d466649ba41e4679c03"
+  integrity sha512-af7khnRPbDolqUkivOSNkScTAidFtl2JN4EhQM5wv2+zOAY56KegFYFk/4FZaPREB2rNQfUYF9kuN7OmePtZyQ==
   dependencies:
     "@serverless/core" "^1.0.0"
     "@serverless/template" "^1.0.0"
@@ -1071,13 +1071,13 @@
     ramda "^0.26.1"
     semver "^6.1.1"
 
-"@serverless/enterprise-plugin@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@serverless/enterprise-plugin/-/enterprise-plugin-1.2.0.tgz#f05cf46af3b7b9dfbe93f711d527913ded863875"
-  integrity sha512-C08kXRpwmYMJwBOYKdPqxF7rGGFHlSnzkBbHywTtdTOxKIS0yPgPkCQ5phsRMAIreSmgN4womPKujkZlm605kQ==
+"@serverless/enterprise-plugin@^1.3.1":
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/@serverless/enterprise-plugin/-/enterprise-plugin-1.3.1.tgz#eae574ca8dc80490794e10f67ad8f783cdc490ce"
+  integrity sha512-IfBqIuTEDVED+kb1LjtvOZgTxyI05RYF336LS4hCULeNVgQYNAaKuFBLDj706ZIOP2EASTkEsQz4hk1/T5uqYQ==
   dependencies:
     "@serverless/event-mocks" "^1.1.1"
-    "@serverless/platform-sdk" "^1.0.2"
+    "@serverless/platform-sdk" "^2.0.3"
     chalk "^2.4.2"
     flat "^4.1.0"
     fs-extra "^7.0.1"
@@ -1092,6 +1092,7 @@
     node-fetch "^2.3.0"
     regenerator-runtime "^0.13.1"
     semver "^5.6.0"
+    simple-git "^1.118.0"
     source-map-support "^0.5.12"
     uuid "^3.3.2"
     yamljs "^0.3.0"
@@ -1104,10 +1105,10 @@
     "@types/lodash" "^4.14.123"
     lodash "^4.17.11"
 
-"@serverless/platform-sdk@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@serverless/platform-sdk/-/platform-sdk-1.0.2.tgz#5456f2528885b72b9272526a807c96e0184942fd"
-  integrity sha512-Aud1eQVUhqpREUtayATPEsk1+1+ph+gjB+AvGCFrD1dZoMSYDsfzyiPa8OoZAPwkfNmeuS1GjELqh3oKPkzPOQ==
+"@serverless/platform-sdk@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@serverless/platform-sdk/-/platform-sdk-2.0.3.tgz#4827c2ef9cb03e665cff67410377a261d9ffc954"
+  integrity sha512-A9SpDcdcjHweBj2IOfoWgSkXD9Y8O+TqGMUDFsKNcpWEMsp48IGwzV6NHJywz/V3PzZ7JmiL3ZM7+61UTMiiMw==
   dependencies:
     body-parser "^1.19.0"
     chalk "^2.4.1"
@@ -3363,17 +3364,17 @@ debug@3.1.0, debug@^3.1.0:
   dependencies:
     ms "2.0.0"
 
+debug@^4.0.1, debug@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
+  integrity sha512-pYAIzeRo8J6KPEaJ0VWOh5Pzkbw/RetuzehGM7QRRX5he4fPHx2rdKMB256ehJCkX+XRQm16eZLqLNS8RSZXZw==
+  dependencies:
+    ms "^2.1.1"
+
 debug@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.0.tgz#373687bffa678b38b1cd91f861b63850035ddc87"
   integrity sha512-heNPJUJIqC+xB6ayLAMHaIrmN9HKa7aQO8MGqKpvCA+uJYVcvR6l5kgdrhRuwPFHU7P5/A1w0BjByPHwpfTDKg==
-  dependencies:
-    ms "^2.1.1"
-
-debug@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
-  integrity sha512-pYAIzeRo8J6KPEaJ0VWOh5Pzkbw/RetuzehGM7QRRX5he4fPHx2rdKMB256ehJCkX+XRQm16eZLqLNS8RSZXZw==
   dependencies:
     ms "^2.1.1"
 
@@ -6924,6 +6925,11 @@ lodash@^4.17.13:
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.13.tgz#0bdc3a6adc873d2f4e0c4bac285df91b64fc7b93"
   integrity sha512-vm3/XWXfWtRua0FkUyEHBZy8kCPjErNBT9fJx8Zvs+U6zjqPbTUOpkaoum3O5uiA8sm+yNMHXfYkTUHFoMxFNA==
 
+lodash@^4.17.15:
+  version "4.17.15"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+
 loose-envify@^1.0.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
@@ -9392,13 +9398,13 @@ serverless-webpack@5.3.1:
     semver "^5.5.0"
     ts-node "^3.2.0"
 
-serverless@1.48.0:
-  version "1.48.0"
-  resolved "https://registry.yarnpkg.com/serverless/-/serverless-1.48.0.tgz#9bec59452efc17413ba96630ecd62a0518091cc9"
-  integrity sha512-YIyXgf3WaWDPNJlaDoMAYeSdhzXVJEdXcSD3/QAVK/BqHAoo95aexs724sSQGmc5yT73764gxQrJaR2jtCUnKQ==
+serverless@1.48.1:
+  version "1.48.1"
+  resolved "https://registry.yarnpkg.com/serverless/-/serverless-1.48.1.tgz#b0452081c5c05f5c4327e81c679a3ddab5b13c12"
+  integrity sha512-o4uE6xFMwN0PRjapIIzf88ep1pp5035gsmJo5sCj8MTuSq+fcygEo3Is1TACfPAhfV9es5pAP8AobS09yldIww==
   dependencies:
-    "@serverless/cli" "^1.0.0"
-    "@serverless/enterprise-plugin" "^1.2.0"
+    "@serverless/cli" "^1.0.1"
+    "@serverless/enterprise-plugin" "^1.3.1"
     archiver "^1.3.0"
     async "^1.5.2"
     aws-sdk "^2.490.0"
@@ -9421,7 +9427,7 @@ serverless@1.48.0:
     json-refs "^2.1.7"
     jszip "^3.2.2"
     jwt-decode "^2.2.0"
-    lodash "^4.17.13"
+    lodash "^4.17.15"
     minimist "^1.2.0"
     mkdirp "^0.5.1"
     moment "^2.24.0"
@@ -9551,6 +9557,13 @@ simple-errors@^1.0.1:
   integrity sha1-sLvsrB8QgvE7OWKJS0qeiPOgye8=
   dependencies:
     errno "^0.1.1"
+
+simple-git@^1.118.0:
+  version "1.122.0"
+  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-1.122.0.tgz#33b2d3a760aa02df470c79fbab5413d4f4e68945"
+  integrity sha512-plTwhnkIHrw2TFMJbJH/mKwWGgFbj03V9wcfBKa4FsuvgJbpwdlSJnlvkIQWDV1CVLaf2Gl6zSNeRRnxBRhX1g==
+  dependencies:
+    debug "^4.0.1"
 
 sisteransi@^1.0.0:
   version "1.0.0"
