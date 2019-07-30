@@ -9398,10 +9398,10 @@ serverless-webpack@5.3.1:
     semver "^5.5.0"
     ts-node "^3.2.0"
 
-serverless@1.48.4:
-  version "1.48.4"
-  resolved "https://registry.yarnpkg.com/serverless/-/serverless-1.48.4.tgz#fb01499fa78340cd170130e30cc0d0d62a98b4cb"
-  integrity sha512-Gx88FH968lbvpfD8xwv2dsYQnDQcSXDo07nXHAvKY+FPrQOMleuePR+gqJ53ZotWs+WBjkVaFYCqLNQKmkjdxQ==
+serverless@1.49.0:
+  version "1.49.0"
+  resolved "https://registry.yarnpkg.com/serverless/-/serverless-1.49.0.tgz#a4c8353c70db6dfe65018bb5e43ea5f44bc43795"
+  integrity sha512-rDMrhfJVs+vLmB8djU7BFXshLN3JOplSe3NsGAqK8akbuEg8ab6SNYoJ4qpEWYzoes74DjthDPZc3zfNkrPOXQ==
   dependencies:
     "@serverless/cli" "^1.0.1"
     "@serverless/enterprise-plugin" "^1.3.1"
