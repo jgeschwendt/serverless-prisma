@@ -55,7 +55,7 @@
     "typescript": "3.5.3",
     "webpack": "4.39.2",
     "webpack-bundle-analyzer": "3.4.1",
-    "webpack-cli": "3.3.6",
+    "webpack-cli": "3.3.7",
     "webpack-node-externals": "1.7.2"
   },
   "peerDependencies": {
