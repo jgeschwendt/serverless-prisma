@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.7.0",
-    "@babel/preset-env": "7.7.0",
+    "@babel/preset-env": "7.7.1",
     "@babel/preset-typescript": "7.7.0",
     "aws-sdk": "2.563.0",
     "babel-loader": "8.0.6",
