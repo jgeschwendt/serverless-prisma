@@ -2248,10 +2248,10 @@ aws-lambda@0.1.2:
     commander "^2.5.0"
     dotenv "^0.4.0"
 
-aws-sdk@2.564.0, aws-sdk@^2.564.0:
-  version "2.564.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.564.0.tgz#d5fef5220436306c1c2f48487a3d631280a3d944"
-  integrity sha512-X5MbcebjQ3iPNBvZ27WZyMEVCleBLqot2hqVz2M9XvMDR4B8qqPuteWrtbLu+DVjENvVD7Oj0BOIjrYEVWacFA==
+aws-sdk@2.565.0:
+  version "2.565.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.565.0.tgz#dec20f3fb0d2ad56711cac57ef1ef0ffbecfe903"
+  integrity sha512-Vjoeo2ZZBsoWyBjGeMNOmeCez0v2COtpDYyNsHlxj1IPmAcSDGBRSOTOJh6CWjuPPe0r899byBW9lGaYTHcUBA==
   dependencies:
     buffer "^4.9.1"
     events "^1.1.1"
@@ -2277,6 +2277,21 @@ aws-sdk@^*:
     url "0.10.3"
     uuid "3.1.0"
     xml2js "0.4.19"
+
+aws-sdk@^2.564.0:
+  version "2.564.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.564.0.tgz#d5fef5220436306c1c2f48487a3d631280a3d944"
+  integrity sha512-X5MbcebjQ3iPNBvZ27WZyMEVCleBLqot2hqVz2M9XvMDR4B8qqPuteWrtbLu+DVjENvVD7Oj0BOIjrYEVWacFA==
+  dependencies:
+    buffer "^4.9.1"
+    events "^1.1.1"
+    ieee754 "^1.1.13"
+    jmespath "^0.15.0"
+    querystring "^0.2.0"
+    sax "^1.2.1"
+    url "^0.10.3"
+    uuid "^3.3.2"
+    xml2js "^0.4.19"
 
 aws-sign2@~0.7.0:
   version "0.7.0"
