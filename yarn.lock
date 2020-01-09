@@ -2097,40 +2097,10 @@ aws-lambda@0.1.2:
     commander "^2.5.0"
     dotenv "^0.4.0"
 
-aws-sdk@2.585.0:
-  version "2.585.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.585.0.tgz#37769eca99690edd0a66f49766232fda274937c0"
-  integrity sha512-T3JG4JZUmELqxT4hwJa93xns/TWIllaeYoyhRPGwXUj78vhCYJUiigtU6WRYLu84AMoZAGT/pVkARH7vfxpq9Q==
-  dependencies:
-    buffer "4.9.1"
-    events "1.1.1"
-    ieee754 "1.1.13"
-    jmespath "0.15.0"
-    querystring "0.2.0"
-    sax "1.2.1"
-    url "0.10.3"
-    uuid "3.3.2"
-    xml2js "0.4.19"
-
-aws-sdk@^*:
-  version "2.306.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.306.0.tgz#104f69b6d2291ba94cb401105514c242be51aac4"
-  integrity sha512-GEvZJ8J9+bSMHUjlXcUS5TOWCxirQDiMIdvSwXV/okKC4lJ/mQc3C/pPiSM/ppsMQRoMFJlYxO9uubkmGgwCwQ==
-  dependencies:
-    buffer "4.9.1"
-    events "1.1.1"
-    ieee754 "1.1.8"
-    jmespath "0.15.0"
-    querystring "0.2.0"
-    sax "1.2.1"
-    url "0.10.3"
-    uuid "3.1.0"
-    xml2js "0.4.19"
-
-aws-sdk@^2.584.0:
-  version "2.584.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.584.0.tgz#f65a2ecd2a53cea5a2ff04eaa276a39e0db1db2c"
-  integrity sha512-pz1klFJcbzOrcQZRqQWlo9xHrxp+/Q20/WftCIy8Ti+bTg6grtOZccslfaDuIfEgaj6f/hxT5qcu6U0FRUMXZw==
+aws-sdk@2.600.0, aws-sdk@^*, aws-sdk@^2.584.0:
+  version "2.600.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.600.0.tgz#bb22e75abd34fd5455981e0b46db1d022b703f45"
+  integrity sha512-ySgOVN7plt4g3SmbvAz6fD8aefcmU/IjgogiEgal5BZB5ad5o99MOFwcTILRSLF9rDyoKAHNE3hx0Jcie6XsBQ==
   dependencies:
     buffer "4.9.1"
     events "1.1.1"
@@ -5468,20 +5438,10 @@ iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@^0.4.4, iconv-lite@~0.4.13:
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
 
-ieee754@1.1.13:
+ieee754@1.1.13, ieee754@^1.1.4:
   version "1.1.13"
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.13.tgz#ec168558e95aa181fd87d37f55c32bbcb6708b84"
   integrity sha512-4vf7I2LYV/HaWerSo3XmlMkp5eZ83i+/CDluXi/IGTs/O1sejBNhTtnxzmRZfvOUqj7lZjqHkeTvpgSFDlWZTg==
-
-ieee754@1.1.8:
-  version "1.1.8"
-  resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.8.tgz#be33d40ac10ef1926701f6f08a2d86fbfd1ad3e4"
-  integrity sha1-vjPUCsEO8ZJnAfbwii2G+/0a0+Q=
-
-ieee754@^1.1.4:
-  version "1.1.12"
-  resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.12.tgz#50bf24e5b9c8bb98af4964c941cdb0918da7b60b"
-  integrity sha512-GguP+DRY+pJ3soyIiGPTvdiVXjZ+DbXOxGpXn3eMvNW4x4irjqXm4wHKscC+TfxSJ0yw/S1F24tqdMNsMZTiLA==
 
 iferr@^0.1.5:
   version "0.1.5"
@@ -10826,11 +10786,6 @@ uuid@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.0.0.tgz#6728fc0459c450d796a99c31837569bdf672d728"
   integrity sha1-Zyj8BFnEUNeWqZwxg3VpvfZy1yg=
-
-uuid@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.1.0.tgz#3dd3d3e790abc24d7b0d3a034ffababe28ebbc04"
-  integrity sha512-DIWtzUkw04M4k3bf1IcpS2tngXEL26YUD2M0tMDUpnUrz2hgzUBlD55a4FjdLGPvfHxS6uluGWvaVEqgBcVa+g==
 
 uuid@3.3.2, uuid@^3.1.0, uuid@^3.3.2:
   version "3.3.2"
