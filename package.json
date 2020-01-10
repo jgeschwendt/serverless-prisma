@@ -33,7 +33,7 @@
     "prisma-binding": "2.3.16"
   },
   "devDependencies": {
-    "@babel/core": "7.7.5",
+    "@babel/core": "7.7.7",
     "@babel/preset-env": "7.7.5",
     "@babel/preset-typescript": "7.7.7",
     "aws-sdk": "2.600.0",
