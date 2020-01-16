@@ -2251,7 +2251,7 @@ aws-lambda@0.1.2:
     commander "^2.5.0"
     dotenv "^0.4.0"
 
-aws-sdk@2.604.0, aws-sdk@^*, aws-sdk@^2.602.0:
+aws-sdk@2.604.0, aws-sdk@^*, aws-sdk@^2.603.0:
   version "2.604.0"
   resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.604.0.tgz#b05a1540d6ee448f5545e4f829ad9606c480aebb"
   integrity sha512-5SmC/3YL2Zve9SFeeL/xaUbsxwW2EfwsAi/WTCAwxRUGehT7FNO8Ojiv0u02aODEBSTssugDZw21ka+dC3l/Yw==
@@ -9566,16 +9566,16 @@ serverless-webpack@5.3.1:
     semver "^5.5.0"
     ts-node "^3.2.0"
 
-serverless@1.61.1:
-  version "1.61.1"
-  resolved "https://registry.yarnpkg.com/serverless/-/serverless-1.61.1.tgz#c0a405ea58f9470887342ce023384d325f26d339"
-  integrity sha512-UhhzIeOxwabOFZGBipUfqgpjzMNdutLi+fFvH6lisa53OZI3fLw3fWnoJpUwCYtwN1nQVwyDM43wBl0MvVH0OQ==
+serverless@1.61.2:
+  version "1.61.2"
+  resolved "https://registry.yarnpkg.com/serverless/-/serverless-1.61.2.tgz#c43693e68582cb44f1df2c80d663d8954784adea"
+  integrity sha512-/U/yOdL/gZVamPqkqFBRwUXs0gj1vD0uRkLtsmyFoTzVqbMf0qM0Fd9OYL8v6IvJa2H+Nfy2C9uD2G8KGD8RxQ==
   dependencies:
     "@serverless/cli" "^1.4.0"
     "@serverless/enterprise-plugin" "^3.2.7"
     archiver "^1.3.0"
     async "^1.5.2"
-    aws-sdk "^2.602.0"
+    aws-sdk "^2.603.0"
     bluebird "^3.7.2"
     boxen "^3.2.0"
     cachedir "^2.3.0"
