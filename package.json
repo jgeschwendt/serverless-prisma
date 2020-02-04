@@ -27,7 +27,7 @@
     "aws-lambda": "0.1.2",
     "graphql": "14.6.0",
     "graphql-playground-middleware-lambda": "1.7.13",
-    "graphql-tag": "2.10.1",
+    "graphql-tag": "2.10.2",
     "graphql-yoga": "1.18.3",
     "node-fetch": "2.6.0",
     "prisma-binding": "2.3.16"
