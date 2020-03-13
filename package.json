@@ -24,7 +24,7 @@
     "graphql": "14.6.0"
   },
   "dependencies": {
-    "aws-lambda": "0.1.2",
+    "aws-lambda": "1.0.5",
     "graphql": "14.6.0",
     "graphql-playground-middleware-lambda": "1.7.13",
     "graphql-tag": "2.10.2",
