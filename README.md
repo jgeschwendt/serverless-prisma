@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/jgeschwendt/serverless-prisma.svg?branch=master)](https://travis-ci.org/jgeschwendt/serverless-prisma)
 
+**[Archived]** — New projects should consider using [Prisma2](https://www.prisma.io/blog/announcing-prisma-2-zq1s745db8i5#getting-started-with-prisma-2)
+
 Minimal Serverless + Prisma Project Template
 
 ## Getting Started
